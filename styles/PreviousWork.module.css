@@ -71,14 +71,14 @@
     margin: 3px 0 0 15px;
 }
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 800px) {
     .previousWorkContainer {
         margin-bottom: 70px;
     }
     .previousItemContainer {
         display: flex;
         flex-direction: row;
-        margin-bottom: 30px;
+        margin-bottom: 20px;
     }
 
     .previousItemContainerFlipped {
@@ -88,7 +88,7 @@
     
     .previousItemImage {
         width: 45%;
-        min-height: 340px;
+        min-height: 270px;
         height: auto;
         border-radius: 10px 0px 0 10px;
     }
@@ -101,17 +101,17 @@
     }
 
     .headerItem {
-        font-size: 1.7rem;
-        margin-bottom: 15px;
+        font-size: 1.5rem;
+        margin-bottom: 10px;
     }
 
     .tags {
-        font-size: 1.2rem;
+        font-size: 1rem;
         margin-right: 30px;
     }
 
     .timeslot {
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
 
     .tagAndTimeContainer {
@@ -122,12 +122,12 @@
     }
 
     .link {
-        font-size: 1.2rem;
+        font-size: 1.1rem;
         margin-bottom: 20px;
     }
 
     .text {
-        margin-bottom: 40px;
+        margin-bottom: 30px;
     }
 
     .previousItemInformation {

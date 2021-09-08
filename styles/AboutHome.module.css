@@ -39,7 +39,7 @@
     line-height: 28px;
 }
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 850px) {
     .aboutHomeContainer {
         display: flex;
         flex-direction: row;
@@ -72,7 +72,7 @@
 
     .tag {
         font-weight: 400;
-        font-size: 1.2rem;
+        font-size: 1.1rem;
         margin-bottom: 10px;
         margin-top: 0;
         line-height: 28px;

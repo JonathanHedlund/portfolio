@@ -87,16 +87,16 @@
 
     .itemInformation {
         padding: 17px 35px 13px 35px;
-        min-height: 110px;
+        min-height: 100px;
     }
 
     .itemHeader {
-        font-size: 1.3rem;
+        font-size: 1.2rem;
         margin-bottom: 7px;
     }
 
     .itemRole {
-        font-size: 1.2rem;
+        font-size: 1.1rem;
     }
 
     .itemTimeslot {

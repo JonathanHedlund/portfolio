@@ -46,7 +46,7 @@
     border-radius: 10px;
 }
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 900px) {
     .contactFormContainer {
         display: flex;
         flex-direction: row;
@@ -72,13 +72,13 @@
     }
 
     .textInput {
-        font-size: 1.2rem;
+        font-size: 1rem;
         padding: 20px 30px;
 
     }
 
     .textArea {
-        font-size: 1.2rem;
+        font-size: 1rem;
         padding: 20px 30px;
 
     }
