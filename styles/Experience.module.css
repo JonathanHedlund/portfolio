@@ -91,16 +91,16 @@
     }
 
     .itemHeader {
-        font-size: 1.2rem;
-        margin-bottom: 7px;
+        font-size: 1.05rem;
+        margin-bottom: 3px;
     }
 
     .itemRole {
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
 
     .itemTimeslot {
-        font-size: 0.95rem;
+        font-size: 0.85rem;
         font-weight: 400;
     }
     

@@ -1,6 +1,3 @@
-import Head from 'next/head'
-import Image from 'next/image'
-
 import HeaderNav from '../components/HeaderNav'
 import HeroContainer from '../components/hero/HeroContainer'
 import CurrentFocusContainer from '../components/current-focus/CurrentFocusContainer'
