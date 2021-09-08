@@ -21,7 +21,7 @@
 }
 
 .previousItemImage {
-    height: 23vh;
+    height: 180px;
     background-color: #484848;
     border-radius: 10px 10px 0 0;
 }
@@ -57,6 +57,12 @@
 }
 
 .text {
+    display: none;
+    margin: 10px 0 20px;
+    font-size: 0.95rem;
+}
+
+.textMobile {
     margin: 10px 0 20px;
     font-size: 0.95rem;
 }
@@ -76,7 +82,7 @@
     .previousWorkContainer {
         margin-bottom: 70px;
     }
-    
+
     .previousItemContainer {
         display: flex;
         flex-direction: row;
@@ -129,7 +135,14 @@
     }
 
     .text {
+        display: block;
         margin-bottom: 30px;
+    }
+
+    .textMobile {
+        display: none;
+        margin: 10px 0 20px;
+        font-size: 0.95rem;
     }
 
     .previousItemInformation {

@@ -14,6 +14,7 @@ const PreviousWorkItem = (props) => {
                     <p className={styles.timeslot}>{props.timeslot}</p>
                 </div>
                 <p className={styles.text}>{props.text}</p>
+                <p className={styles.textMobile}>{props.textMobile}</p>
                 <Link href="">
                     <a className={styles.link}>
                         <span>Read more</span>
