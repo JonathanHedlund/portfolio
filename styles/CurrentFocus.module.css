@@ -1,0 +1,78 @@
+.currentFocusMainContainer {
+    margin-bottom: 20px;
+}
+
+.currentFocuses {
+    display: flex;
+    flex-direction: column;
+}
+
+.currentFocusContainer {
+    margin-bottom: 30px;
+}
+
+.header {
+    margin-bottom: 35px;
+}
+
+.image {
+    border-radius: 10px;
+    height: 200px;
+    background-color: #484848;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.headerFocus {
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.metaContainer {
+    color: rgb(172, 172, 172);
+}
+
+.role {
+    margin-right: 30px;
+}
+
+.readMoreLink {
+    margin-bottom: 15px;
+}
+
+@media only screen and (min-width: 1000px) {
+    .currentFocuses {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .currentFocusContainer {
+        width: 48.5%;
+        margin-bottom: 50px;
+    }
+
+    .image {
+        height: 300px;
+
+    }
+
+    .headerFocus {
+        font-size: 1.8rem;    
+    }
+
+    .metaContainer {
+        font-size: 1.2rem;
+    }
+
+    .readMoreLink {
+        font-size: 1.3rem;
+    }
+
+    .text {
+        margin-top: 15px;
+        margin-bottom: 25px;
+    }
+  }

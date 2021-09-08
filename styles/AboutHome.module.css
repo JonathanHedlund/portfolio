@@ -1,0 +1,80 @@
+.aboutHomeContainer {
+    margin-bottom: 45px;
+}
+
+.header {
+    margin-bottom: 35px;
+    display: none;
+}
+
+.headerMobile {
+    margin-bottom: 10px;
+}
+
+.profilePicture {
+    border-radius: 10px;
+    height: 35vh;
+    margin-bottom: 30px;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.aboutHomeText {
+    margin-bottom: 25px;
+}
+
+.skillsAndToolsHeader {
+    font-weight: 300;
+    font-size: 1.3rem;
+    color: rgb(207, 207, 207);
+    margin-bottom: 10px;
+}
+
+.tag {
+    font-weight: 400;
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    margin-top: 0;
+    line-height: 28px;
+}
+
+@media only screen and (min-width: 1000px) {
+    .aboutHomeContainer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 80px;
+    }
+
+    .profilePicture {
+        width: 30%;
+        height: auto;
+        margin-bottom: 0;
+    }
+
+    .header {
+        margin-bottom: 0px;
+        display: block;
+    }
+    
+    .headerMobile {
+        margin-bottom: 35px;
+        display: none;
+    }
+
+    .contentContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 63%;
+    }
+
+    .tag {
+        font-weight: 400;
+        font-size: 1.2rem;
+        margin-bottom: 10px;
+        margin-top: 0;
+        line-height: 28px;
+    }
+}

@@ -1,0 +1,111 @@
+.experienceContainer {
+    margin-bottom: 45px;
+}
+
+.experienceHeaderContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.experienceHeader {
+    margin: 0;
+}
+
+.itemContainer {
+    display: flex;
+    flex-direction: row;
+    min-height: 90px;
+    margin-bottom: 12px;
+    box-shadow: 0px 6px 20px #000000af;
+    border-radius: 10px;
+}
+
+.itemImage {
+    width: 28%;
+    background-color: #484848;
+    border-radius: 10px 0 0 10px;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    max-width: 110px;
+    min-width: 90px;
+}
+
+.itemInformation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: stretch;
+    background-color: #1D1D1D;
+    border-radius: 0 10px 10px 0;
+    padding: 12px 15px 8px 18px;
+}
+
+.publicationInformation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    background-color: #1D1D1D;
+    border-radius: 10px;
+    padding: 15px 15px 13px 22px;
+}
+
+.itemHeader {
+    margin: 0 0 2px;
+    font-size: 1.05rem;
+    font-weight: 500;
+    line-height: 22px;
+}
+
+.itemRole {
+    margin: 0 0 2px;
+    font-size: 0.95rem;
+    font-weight: 300;
+}
+
+.itemTimeslot {
+    margin: 0;
+    font-size: 0.7rem;
+    font-weight: 300;
+}
+
+@media only screen and (min-width: 1000px) {
+    .experienceCollectionContainer {
+        margin-bottom: 50px;
+    }
+
+    .itemInformation {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .itemInformation {
+        padding: 17px 35px 13px 35px;
+        min-height: 110px;
+    }
+
+    .itemHeader {
+        font-size: 1.3rem;
+        margin-bottom: 7px;
+    }
+
+    .itemRole {
+        font-size: 1.2rem;
+    }
+
+    .itemTimeslot {
+        font-size: 0.95rem;
+        font-weight: 400;
+    }
+    
+    .publicationInformation {
+        min-height: 110px;
+        padding: 24px 35px 20px 35px;
+    }
+}

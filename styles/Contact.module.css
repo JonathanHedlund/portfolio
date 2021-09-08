@@ -1,0 +1,85 @@
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.header {
+    margin: 0 0 10px;
+}
+
+.desc {
+    margin: 0 0 20px;
+}
+
+.textInput {
+    padding: 20px 20px;
+    margin-bottom: 12px;
+    border-radius: 10px;
+    border: 0;
+    background-color: #1D1D1D;
+    font-size: 1rem;
+    color: #fff;
+}
+
+.textArea {
+    padding: 20px 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 0;
+    background-color: #1D1D1D;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    font-size: 1rem;
+    resize: none;
+    color: #fff;
+}
+
+.formSubmitButton {
+    border: 0;
+    color: #fff;
+}
+
+.mapContainer {
+    background-color: #484848;
+    height: 300px;
+    border-radius: 10px;
+}
+
+@media only screen and (min-width: 1000px) {
+    .contactFormContainer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .mapContainer {
+        width: 48%;
+        height: auto;
+    }
+
+    .desc {
+        margin: 0 0 30px;
+    }
+
+    .formContainer {
+        margin-bottom: 0px;
+        width: 48%;
+    }
+
+    .textInput {
+        margin-bottom: 15px;
+    }
+
+    .textInput {
+        font-size: 1.2rem;
+        padding: 20px 30px;
+
+    }
+
+    .textArea {
+        font-size: 1.2rem;
+        padding: 20px 30px;
+
+    }
+}

@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 85%;
+  margin: 0;
+  margin-bottom: 150px;
+  max-width: 1150px;
+}
+
+.pageContent {
+  display: flex;
+  justify-content: center;
+}
