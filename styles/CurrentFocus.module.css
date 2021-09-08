@@ -42,6 +42,17 @@
     margin-bottom: 15px;
 }
 
+.link {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.icon {
+    width: 25px;
+    margin: 3px 0 0 15px;
+}
+
 @media only screen and (min-width: 1000px) {
     .currentFocuses {
         flex-direction: row;
@@ -55,12 +66,12 @@
     }
 
     .image {
-        height: 250px;
-
+        height: 220px;
     }
 
     .headerFocus {
-        font-size: 1.5rem;    
+        font-size: 1.5rem;
+        margin-bottom: 12px;    
     }
 
     .metaContainer {
@@ -72,7 +83,11 @@
     }
 
     .text {
-        margin-top: 15px;
-        margin-bottom: 25px;
+        margin-top: 12px;
+        margin-bottom: 20px;
+    }
+
+    .link {
+        font-size: 1rem;
     }
   }

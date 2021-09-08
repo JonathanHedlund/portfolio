@@ -10,14 +10,14 @@
     border-radius: 10px;
     margin-bottom: 20px;
     background-color: #1D1D1D;
-    box-shadow: 0px 6px 20px #000000af;
+    box-shadow: 0px 3px 12px #000000af;
 }
 
 .previousItemContainerFlipped {
     border-radius: 10px;
     margin-bottom: 20px;
     background-color: #1D1D1D;
-    box-shadow: 0px 6px 20px #000000af;
+    box-shadow: 0px 3px 12px #000000af;
 }
 
 .previousItemImage {
@@ -58,6 +58,7 @@
 
 .text {
     margin: 10px 0 20px;
+    font-size: 0.95rem;
 }
 
 .link {
@@ -75,6 +76,7 @@
     .previousWorkContainer {
         margin-bottom: 70px;
     }
+    
     .previousItemContainer {
         display: flex;
         flex-direction: row;
@@ -88,21 +90,21 @@
     
     .previousItemImage {
         width: 45%;
-        min-height: 270px;
+        min-height: 300px;
         height: auto;
         border-radius: 10px 0px 0 10px;
     }
 
     .previousItemImageFlipped {
         width: 45%;
-        min-height: 340px;
+        min-height: 300px;
         height: auto;
         border-radius: 0 10px 10px 0;
     }
 
     .headerItem {
         font-size: 1.5rem;
-        margin-bottom: 10px;
+        margin-bottom: 7px;
     }
 
     .tags {
@@ -118,11 +120,11 @@
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        margin-bottom: 5px;
+        margin-bottom: 2px;
     }
 
     .link {
-        font-size: 1.1rem;
+        font-size: 1rem;
         margin-bottom: 20px;
     }
 
@@ -137,6 +139,4 @@
         width: 55%;
         padding: 0px 40px 0px;
     }
-
-
 }

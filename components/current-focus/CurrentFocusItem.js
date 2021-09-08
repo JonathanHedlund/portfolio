@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 import styles from '../../styles/CurrentFocus.module.css'
 
@@ -18,9 +19,10 @@ const CurrentFocusItem = (props) => {
                 {props.text}
             </p>
             <Link href="">
-                <a className={styles.readMoreLink}>
-                    Read more
-                </a>
+                    <a className={styles.link}>
+                        <span>Read more</span>
+                        <FontAwesomeIcon icon={['fas', 'long-arrow-alt-right']} className={styles.icon} />
+                    </a>
             </Link>
         </div>
     )

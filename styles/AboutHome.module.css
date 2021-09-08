@@ -21,6 +21,7 @@
 }
 
 .aboutHomeText {
+    margin-top: 0;
     margin-bottom: 25px;
 }
 
@@ -54,7 +55,7 @@
     }
 
     .header {
-        margin-bottom: 0px;
+        margin-bottom: 15px;
         display: block;
     }
     
@@ -72,7 +73,7 @@
 
     .tag {
         font-weight: 400;
-        font-size: 1.1rem;
+        font-size: 1.05rem;
         margin-bottom: 10px;
         margin-top: 0;
         line-height: 28px;

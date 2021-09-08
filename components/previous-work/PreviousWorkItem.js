@@ -1,7 +1,6 @@
 import Link from 'next/link'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
-
 import styles from '../../styles/PreviousWork.module.css'
 
 const PreviousWorkItem = (props) => {
