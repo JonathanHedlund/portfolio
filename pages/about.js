@@ -4,7 +4,7 @@ import styles from '../styles/Home.module.css'
 
 const about = () => {
     return (
-        <div>
+        <div className={styles.container}>
             <HeaderNav />
         </div>
     )
