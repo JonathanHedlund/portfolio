@@ -11,7 +11,7 @@ const ExperienceHeader = ( {header, button} ) => {
             {button &&  
             <Link href="/portfolio">
                 <a className="btn">
-                    View more
+                    View all
                 </a>
             </Link>}
         </div>

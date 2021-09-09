@@ -1,5 +1,5 @@
 .previousWorkContainer {
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 .header {
@@ -80,7 +80,7 @@
 
 @media only screen and (min-width: 800px) {
     .previousWorkContainer {
-        margin-bottom: 70px;
+        margin-bottom: 110px;
     }
 
     .previousItemContainer {

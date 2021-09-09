@@ -1,5 +1,9 @@
+.experienceCollectionContainer {
+    margin-bottom: 40px;
+}
+
 .experienceContainer {
-    margin-bottom: 45px;
+    margin-bottom: 55px;
 }
 
 .experienceHeaderContainer {
@@ -75,7 +79,11 @@
 
 @media only screen and (min-width: 1000px) {
     .experienceCollectionContainer {
-        margin-bottom: 50px;
+        margin-bottom: 80px;
+    }
+
+    .experienceContainer {
+        margin-bottom: 65px;
     }
 
     .itemInformation {

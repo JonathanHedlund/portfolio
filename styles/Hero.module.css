@@ -3,7 +3,7 @@
     flex-direction: column;
     align-items: center;
     margin-top: 20px;
-    margin-bottom: 80px;
+    margin-bottom: 40px;
 }
 
 .welcomeText {
@@ -26,8 +26,8 @@
 .heroLinkContainer {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    width: 280px;
+    justify-content: space-evenly;
+    width: 340px;
 }
 
 .heroIconContainer {
@@ -52,7 +52,6 @@
     }
 
     .heroLinkContainer {
-        width: 340px;
-
+        width: 430px;
     }
 }
