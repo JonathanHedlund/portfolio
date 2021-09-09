@@ -3,20 +3,10 @@ import ExperienceItem from './ExperienceItem'
 
 import styles from '../../styles/Experience.module.css'
 
-const ProjectsContainer = () => {
+const ProjectsContainerHome = () => {
     return (
         <div className={styles.experienceContainer}>
-            <ExperienceHeader header="Projects" button={false}/>
-            <ExperienceItem 
-                img="csncountdown.png"
-                header="Hobbies"
-                role="Project"
-                timeslot="JUNE 2016 - SEPTEMBER 2018"/>
-            <ExperienceItem 
-                img="csncountdown.png"
-                header="Arboreal"
-                role="Project"
-                timeslot="JUNE 2016 - SEPTEMBER 2018"/>
+            <ExperienceHeader header="Projects" button={true}/>
             <ExperienceItem 
                 img="csncountdown.png"
                 header="CSN Countdown"
@@ -36,4 +26,4 @@ const ProjectsContainer = () => {
     )
 }
 
-export default ProjectsContainer
+export default ProjectsContainerHome

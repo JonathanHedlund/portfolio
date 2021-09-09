@@ -3,10 +3,10 @@ import ExperienceItem from './ExperienceItem'
 
 import styles from '../../styles/Experience.module.css'
 
-const ExperienceContainer = () => {
+const ExperienceContainerHome = () => {
     return (
         <div className={styles.experienceContainer}>
-            <ExperienceHeader header="Experiences" button={false}/>
+            <ExperienceHeader header="Experiences" button={true}/>
             <ExperienceItem
                 img="/uminovainnovation.png"
                 header="Uminova Innovation"
@@ -21,4 +21,4 @@ const ExperienceContainer = () => {
     )
 }
 
-export default ExperienceContainer
+export default ExperienceContainerHome

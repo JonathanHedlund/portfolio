@@ -9,7 +9,7 @@ const ExperienceHeader = ( {header, button} ) => {
                 {header}
             </h2>
             {button &&  
-            <Link href="">
+            <Link href="/portfolio">
                 <a className="btn">
                     View more
                 </a>
