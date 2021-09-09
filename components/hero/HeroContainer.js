@@ -11,10 +11,9 @@ const HeroContainer = () => {
                 Get in touch
             </div>
             <div className={styles.heroLinkContainer}>
-                <HeroIconLink text="LinkedIn" icon={"linkedin"} iconType="fab"/>
-                <HeroIconLink text="Github" icon={"github"} iconType="fab"/>
-                <HeroIconLink text="Bookshelf" icon={"book"} iconType="fas"/>
                 <HeroIconLink text="Email" icon={"envelope"} iconType="far"/>
+                <HeroIconLink text="LinkedIn" icon={"linkedin"} iconType="fab"/>
+                <HeroIconLink text="Bookshelf" icon={"book"} iconType="fas"/>
             </div>
         </div>
     )

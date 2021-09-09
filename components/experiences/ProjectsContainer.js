@@ -8,30 +8,40 @@ const ProjectsContainer = () => {
         <div className={styles.experienceContainer}>
             <ExperienceHeader header="Projects" button={false}/>
             <ExperienceItem 
-                img="csncountdown.png"
+                img=""
                 header="Hobbies"
                 role="Project"
-                timeslot="JUNE 2016 - SEPTEMBER 2018"/>
-            <ExperienceItem 
-                img="csncountdown.png"
-                header="Arboreal"
-                role="Project"
-                timeslot="JUNE 2016 - SEPTEMBER 2018"/>
+                timeslot="AUGUST 2020 - JANUARI 2021"/>
             <ExperienceItem 
                 img="csncountdown.png"
                 header="CSN Countdown"
                 role="Project"
-                timeslot="JUNE 2016 - SEPTEMBER 2018"/>
+                timeslot="APRIL 2019 - MAY 2019"/>
+            <ExperienceItem 
+                img="arboreal.png"
+                header="Arboreal"
+                role="Project"
+                timeslot="JANUARI 2019 - MAY 2019"/>
+            <ExperienceItem 
+                img="nordic.png"
+                header="Nordic JS & Nordic Design"
+                role="Attendees - Team Lead"
+                timeslot="SEPTEMBER 2019"/>
             <ExperienceItem 
                 img="idagochinatt.png"
                 header="IDag & Inatt"
                 role="Project manager"
                 timeslot="SEPTEMBER 2018 - OKTOBER 2019"/>
             <ExperienceItem 
+                img="individ.png"
+                header="IndivID"
+                role="Chairman"
+                timeslot="SEPTEMBER 2018 - OKTOBER 2019"/>
+            <ExperienceItem 
                 img="/umeauniversity.png"
                 header="Buddy programme"
                 role="Group Leader"
-                timeslot="SEPTEMBER 2018 - OKTOBER 2019"/>
+                timeslot="AUGUST 2017 - DECEMBER 2017"/>
         </div>
     )
 }

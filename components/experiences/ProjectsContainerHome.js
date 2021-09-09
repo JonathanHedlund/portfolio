@@ -11,7 +11,7 @@ const ProjectsContainerHome = () => {
                 img="csncountdown.png"
                 header="CSN Countdown"
                 role="Project"
-                timeslot="JUNE 2016 - SEPTEMBER 2018"/>
+                timeslot="APRIL 2019 - MAY 2019"/>
             <ExperienceItem 
                 img="idagochinatt.png"
                 header="IDag & Inatt"
@@ -21,7 +21,7 @@ const ProjectsContainerHome = () => {
                 img="/umeauniversity.png"
                 header="Buddy programme"
                 role="Group Leader"
-                timeslot="SEPTEMBER 2018 - OKTOBER 2019"/>
+                timeslot="AUGUST 2017 - DECEMBER 2017"/>
         </div>
     )
 }

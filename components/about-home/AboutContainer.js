@@ -3,7 +3,7 @@ import AboutHomeSkillsAndTools from './AboutHomeSkillsAndTools'
 
 import styles from '../../styles/AboutHome.module.css'
 
-const AboutHomeContainer = () => {
+const AboutContainer = () => {
     return (
         <div className={styles.aboutHomeContainer}>
             <h2 className={styles.headerMobile}>About me</h2>
@@ -24,4 +24,4 @@ const AboutHomeContainer = () => {
     )
 }
 
-export default AboutHomeContainer
+export default AboutContainer

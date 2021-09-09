@@ -8,6 +8,16 @@ const ExperienceContainer = () => {
         <div className={styles.experienceContainer}>
             <ExperienceHeader header="Experiences" button={false}/>
             <ExperienceItem
+                img="/splick-logo.png"
+                header="Splick"
+                role="Co-founder - CTO"
+                timeslot="APRIL 2020 - CURRENT"/>
+            <ExperienceItem
+                img="/"
+                header="Intam"
+                role="Founder"
+                timeslot="AUGUST 2020 - CURRENT"/>
+            <ExperienceItem
                 img="/uminovainnovation.png"
                 header="Uminova Innovation"
                 role="Student communicator"
@@ -16,7 +26,7 @@ const ExperienceContainer = () => {
                 img="/piteakommun.png"
                 header="Piteå kommun"
                 role="Supervisor at Ung i Piteå"
-                timeslot="FEBUARI 2020 - APRIL 2021"/>
+                timeslot="JUNE 2016 - SEPTEMBER 2018"/>
         </div>
     )
 }

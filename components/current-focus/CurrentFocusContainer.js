@@ -12,7 +12,7 @@ const CurrentFocusContainer = () => {
                     header="Splick" 
                     role="Co-founder"
                     timeslot="Mars 2020 - Current"
-                    text="A startup company creating a service for influencers and brands to cooperate through."
+                    text="A next-generation platform for helping e-commerce companies and influencers connect and collaborate."
                     linken="/"
                     />
                 <CurrentFocusItem 
@@ -28,7 +28,7 @@ const CurrentFocusContainer = () => {
                     header="Intam" 
                     role="Founder"
                     timeslot="August 2020 - Current"
-                    text="Web agency specialising in creating easy to use and responsive web solutions."
+                    text="A web agency that specializes in creating user-friendly and responsive websites tailored for the customer's goals."
                     linken="/"
                 />
             </div>
