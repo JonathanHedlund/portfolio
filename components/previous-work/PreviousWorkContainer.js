@@ -8,6 +8,7 @@ const PreviousWorkContainer = () => {
             <h2 className={styles.header}>Some of my previous work</h2>
             <div>
                 <PreviousWorkItem 
+                    img="/splick.png"
                     link="/portfolio/hobbies"
                     header="Hobbies"
                     tags="Design, Entreprenourship"
@@ -19,6 +20,7 @@ const PreviousWorkContainer = () => {
                     Aenean commodo ligula eget dolor. Aenean massa."
                     />
                 <PreviousWorkItem 
+                    img="/splick.png"
                     link="/portfolio/arboreal"
                     header="Arboreal"
                     tags="Design, Entreprenourship"

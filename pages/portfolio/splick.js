@@ -22,7 +22,31 @@ const splick = () => {
             </PortfolioHeader>
             <div className={portfolioStyles.portfolioPageContainerContent}>
                 <div className={portfolioStyles.portfolioPageContainerContentInner}>
-
+                    <PortfolioText text="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo 
+                    ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, 
+                    nascetur ridiculus mus. Donec quam felis, ultricies nec. Cum sociis natoque penatibus et magnis 
+                    dis parturient montes, nascetur.
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. 
+                    Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
+                    Donec quam felis, ultricies nec. Cum sociis natoque penatibus et magnis dis parturient montes, 
+                    nascetur."/>
+                    <PortfolioText text="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo 
+                    ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, 
+                    nascetur ridiculus mus. Donec quam felis, ultricies nec. Cum sociis natoque penatibus et magnis 
+                    dis parturient montes, nascetur.
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. 
+                    Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
+                    Donec quam felis, ultricies nec. Cum sociis natoque penatibus et magnis dis parturient montes, 
+                    nascetur."/>
+                    <PortfolioImage img="/splick.png"/>
+                    <PortfolioText text="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo 
+                    ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, 
+                    nascetur ridiculus mus. Donec quam felis, ultricies nec. Cum sociis natoque penatibus et magnis 
+                    dis parturient montes, nascetur.
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. 
+                    Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
+                    Donec quam felis, ultricies nec. Cum sociis natoque penatibus et magnis dis parturient montes, 
+                    nascetur."/>
                 </div>
             </div>
         </div>
