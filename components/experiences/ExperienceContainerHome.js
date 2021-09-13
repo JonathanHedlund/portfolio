@@ -8,11 +8,13 @@ const ExperienceContainerHome = () => {
         <div className={styles.experienceContainer}>
             <ExperienceHeader header="Experiences" button={true}/>
             <ExperienceItem
+                link="/portfolio/uminovainnovation"
                 img="/uminovainnovation.png"
                 header="Uminova Innovation"
                 role="Student communicator"
                 timeslot="FEBUARI 2020 - APRIL 2021"/>
             <ExperienceItem 
+                link="/portfolio/piteakommun"
                 img="/piteakommun.png"
                 header="Piteå kommun"
                 role="Supervisor at Ung i Piteå"

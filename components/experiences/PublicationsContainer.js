@@ -8,6 +8,7 @@ const PublicationsContainer = () => {
         <div  className={styles.experienceContainer}>
             <ExperienceHeader header="Publication" button={false}/>
             <PublicationItem 
+                link="https://press.um.si/index.php/ump/catalog/book/581"
                 header="Designing call to action: Users’ perception of different characteristics"
                 role="Mejtoft, T., Hedlund, J., Cripps, H., Söderström, U., & Norberg, O. (2021)"/>
         </div>

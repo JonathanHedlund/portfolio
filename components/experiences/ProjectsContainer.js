@@ -8,36 +8,43 @@ const ProjectsContainer = () => {
         <div className={styles.experienceContainer}>
             <ExperienceHeader header="Projects" button={false}/>
             <ExperienceItem 
+                link="/portfolio/hobbies"
                 img=""
                 header="Hobbies"
                 role="Project"
                 timeslot="AUGUST 2020 - JANUARI 2021"/>
-            <ExperienceItem 
-                img="csncountdown.png"
-                header="CSN Countdown"
-                role="Project"
-                timeslot="APRIL 2019 - MAY 2019"/>
-            <ExperienceItem 
-                img="arboreal.png"
-                header="Arboreal"
-                role="Project"
-                timeslot="JANUARI 2019 - MAY 2019"/>
-            <ExperienceItem 
+            <ExperienceItem
+                link="/portfolio/nordic"
                 img="nordic.png"
                 header="Nordic JS & Nordic Design"
                 role="Attendees - Team Lead"
                 timeslot="SEPTEMBER 2019"/>
             <ExperienceItem 
+                link="/portfolio/csncountdown"
+                img="csncountdown.png"
+                header="CSN Countdown"
+                role="Project"
+                timeslot="APRIL 2019 - MAY 2019"/>
+            <ExperienceItem 
+                link="/portfolio/arboreal"
+                img="arboreal.png"
+                header="Arboreal"
+                role="Project"
+                timeslot="JANUARI 2019 - MAY 2019"/>
+            <ExperienceItem 
+                link="/portfolio/idagochinatt"
                 img="idagochinatt.png"
                 header="IDag & Inatt"
                 role="Project manager"
                 timeslot="SEPTEMBER 2018 - OKTOBER 2019"/>
             <ExperienceItem 
+                link="/portfolio/individ"
                 img="individ.png"
                 header="IndivID"
                 role="Chairman"
                 timeslot="SEPTEMBER 2018 - OKTOBER 2019"/>
             <ExperienceItem 
+                link="/portfolio/buddyprogramme"
                 img="/umeauniversity.png"
                 header="Buddy programme"
                 role="Group Leader"

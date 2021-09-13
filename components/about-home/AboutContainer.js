@@ -14,7 +14,7 @@ const AboutContainer = () => {
                 <h2 className={styles.header}>About me</h2>
                 <AboutHomeText 
                     text="I'm Jonathan, a guy from Northern Sweden that loves getting involved in new projects and
-                    opportunities where I get the change to learn new things and challenge myself. Currently I'm 
+                    opportunities where I get the chance to learn new things and challenge myself. Currently I'm 
                     mostly interested in software development, design, and entrepreneurship. Outside of that I spend most
                     my time diving head first into whatever hobbies I have at the time and cook food that at least I 
                     think tastes pretty good." />
