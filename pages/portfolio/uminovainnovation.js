@@ -13,7 +13,7 @@ const uminovainnovation = () => {
                 experienceType="Experience"
                 header="Uminova Innovation"
                 role="Student communicator"
-                timeframe="Februari 2020 - April 2021"
+                timeframe="February 2020 - April 2021"
                 text="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula 
                     eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient 
                     montes, nascetur ridiculus mus. Donec quam felis, ultricies nec. Cum sociis natoque 

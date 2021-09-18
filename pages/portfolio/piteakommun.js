@@ -14,10 +14,11 @@ const piteakommun = () => {
                 header="Piteå kommun"
                 role="Supervisor at Ung i Piteå"
                 timeframe="June 2016 - September 2018"
-                text="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula 
-                    eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient 
-                    montes, nascetur ridiculus mus. Donec quam felis, ultricies nec. Cum sociis natoque 
-                    penatibus et magnis dis parturient montes, nascetur.">
+                text="During the summer of 2016, 2017 and 2018 I worked as a supervisor for Piteå Kommun in an 
+                    organization called Balkongprojektet. Balkongprojektet arranges a variation of activities for 
+                    the youth in Piteå. The purpose of the organization is to engage the young people through different 
+                    kinds of activities. As a supervisor, I have gained knowledge and experience in running an 
+                    organization and leading about 90 employees in total throughout the summers.">
                 <HeaderNav />
             </PortfolioHeader>
             <div className={portfolioStyles.portfolioPageContainerContent}>

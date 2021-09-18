@@ -15,7 +15,7 @@ const EducationContainer = () => {
             <ExperienceItem 
                 link="/portfolio/uminovainnovation"
                 img="/umeauniversity.png"
-                header="Kandidat inom företagsekonomi"
+                header="Bachelor in Business"
                 role="Umeå University"/>
         </div>
     )

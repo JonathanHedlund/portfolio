@@ -16,20 +16,20 @@ const CurrentFocusContainer = () => {
                     link="/portfolio/splick"
                     />
                 <CurrentFocusItem 
-                    img="/klassfoto.jpg"
-                    header="Umeå University" 
-                    role="Student"
-                    timeslot="August 2016 - Current"
-                    text="Currently a student at Umeå University studying Interaction design and economics."
-                    link="/portfolio/umeauniversity"
-                />
-                <CurrentFocusItem 
                     img="/intam.png"
                     header="Intam" 
                     role="Founder"
                     timeslot="August 2020 - Current"
                     text="A web agency that specializes in creating user-friendly and responsive websites tailored for the customer's goals."
                     link="/portfolio/intam"
+                />
+                <CurrentFocusItem 
+                    img="/klassfoto.jpg"
+                    header="Umeå University" 
+                    role="Student"
+                    timeslot="August 2016 - Current"
+                    text="Currently a student at Umeå University studying Interaction design and economics."
+                    link="/portfolio/umeauniversity"
                 />
             </div>
         </div>

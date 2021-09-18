@@ -14,15 +14,17 @@ const individ = () => {
                 header="IndivID"
                 role="Chairman"
                 timeframe="September 2018 - Oktober 2019"
-                text="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula 
-                    eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient 
-                    montes, nascetur ridiculus mus. Donec quam felis, ultricies nec. Cum sociis natoque 
-                    penatibus et magnis dis parturient montes, nascetur.">
+                text="IndivID is the club entertainment committee for the M.Sc.Eng in Interaction and Design 
+                students at Umeå University. IndivID arranges a wide variety of events during the school year to 
+                bring the program closer together. Averaging about one event every month, students get plenty of 
+                chances to get to know their classmates and upper/lower classmates even better by participating in 
+                the activities. The members of indivID in charge of planning and executing are also students of the 
+                program.">
                 <HeaderNav />
             </PortfolioHeader>
             <div className={portfolioStyles.portfolioPageContainerContent}>
                 <div className={portfolioStyles.portfolioPageContainerContentInner}>
-
+                
                 </div>
             </div>
         </div>

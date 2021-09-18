@@ -9,7 +9,7 @@ const ProjectsContainer = () => {
             <ExperienceHeader header="Projects" button={false}/>
             <ExperienceItem 
                 link="/portfolio/hobbies"
-                img=""
+                img="/hobbies-logo.png"
                 header="Hobbies"
                 role="Project"
                 timeslot="AUGUST 2020 - JANUARI 2021"/>

@@ -1,6 +1,7 @@
 import styles from '../../styles/Contact.module.css'
 
 const ContactForm = () => {
+    
     return (
         <div className={styles.formContainer}>
             <h2 className={styles.header}>Contact me!</h2>
