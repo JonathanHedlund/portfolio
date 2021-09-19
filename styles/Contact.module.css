@@ -44,7 +44,40 @@
     background-color: #484848;
     height: 300px;
     border-radius: 10px;
+    overflow: hidden;
 }
+
+.icon {
+    color: red;
+    width: 30px;
+    height: 30px;
+    margin-top: -25px;
+    margin-left: -15px;
+}
+
+.contactFormStatusSuccess {
+    padding: 15px 12px;
+    background-color: rgb(182, 253, 189);
+    color: rgb(19, 19, 19);
+    margin-bottom: 15px;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 26px;
+    font-size: 1.05rem;
+}
+
+.contactFormStatusError {
+    padding: 15px 12px;
+    background-color: rgb(255, 161, 161);
+    color: rgb(19, 19, 19);
+    margin-bottom: 15px;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 26px;
+    font-size: 1.05rem;
+}
+
+
 
 @media only screen and (min-width: 900px) {
     .contactFormContainer {
@@ -80,6 +113,21 @@
     .textArea {
         font-size: 1rem;
         padding: 20px 30px;
+    }
 
+    .icon {
+        color: red;
+        width: 30px;
+        height: 30px;
+        margin-top: -15px;
+        margin-left: -15px;
+    }
+
+    .contactFormStatusSuccess {
+        font-size: 1rem;
+    }
+    
+    .contactFormStatusError {
+        font-size: 1rem;
     }
 }

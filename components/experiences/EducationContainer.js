@@ -8,14 +8,14 @@ const EducationContainer = () => {
         <div className={styles.experienceContainer}>
             <ExperienceHeader header="Education" button={false}/>
             <ExperienceItem 
-                link="/portfolio/uminovainnovation"
+                link="/portfolio/umeauniversity"
                 img="/umeauniversity.png"
                 header="Master of Science, Interaction & Design"
                 role="Umeå University"/>
             <ExperienceItem 
-                link="/portfolio/uminovainnovation"
+                link="/portfolio/umeauniversity"
                 img="/umeauniversity.png"
-                header="Bachelor in Business"
+                header="Bachelor of Science in Economics"
                 role="Umeå University"/>
         </div>
     )

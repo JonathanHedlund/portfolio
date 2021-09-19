@@ -12,7 +12,7 @@ const ProjectsContainer = () => {
                 img="/hobbies-logo.png"
                 header="Hobbies"
                 role="Project"
-                timeslot="AUGUST 2020 - JANUARI 2021"/>
+                timeslot="AUGUST 2020 - JANUARY 2021"/>
             <ExperienceItem
                 link="/portfolio/nordic"
                 img="nordic.png"
@@ -30,7 +30,7 @@ const ProjectsContainer = () => {
                 img="arboreal.png"
                 header="Arboreal"
                 role="Project"
-                timeslot="JANUARI 2019 - MAY 2019"/>
+                timeslot="JANUARY 2019 - MAY 2019"/>
             <ExperienceItem 
                 link="/portfolio/idagochinatt"
                 img="idagochinatt.png"

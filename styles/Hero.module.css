@@ -34,6 +34,12 @@
     display: flex;
     flex-direction: column;
     width: 90px;
+    transition: 0.15s;
+}
+
+.heroIconContainer:hover {
+    text-decoration: none;
+    color: #3A5FD8;
 }
 
 .icon {

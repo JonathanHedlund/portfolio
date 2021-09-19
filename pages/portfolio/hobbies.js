@@ -15,6 +15,7 @@ const hobbies = () => {
                 header="Hobbies"
                 role="Project"
                 timeframe="August 2020 - January 2021"
+                link='https://xd.adobe.com/view/1e625227-5a3c-4ad1-b210-8c2349785bd0-4b31/'
                 text="A service where the user can connect and communicate with others who have the same 
                     interests, and get more out of exercising their interests on their own. This service was
                     developed during a course focusing on the entire business development chain, 
@@ -27,7 +28,7 @@ const hobbies = () => {
                         text='Hobbies was developed during a course at Umeå University called "Affärsmässig 
                         tjänstedesign och teknikutveckling" where the goal is to take an idea and work with it throughout 
                         the whole semester. Thus working with it from the idea phase to presentation of a finished
-                        prototype and business plan. The project was developed by a classmate and I'/>
+                        prototype and business plan. The project was developed by a classmate and I.'/>
                     <PortfolioText 
                         text='Although the course started in August 2020, the idea for Hobbies dates back to January of
                         the same year when I wanted to come up with and develop an idea alongside my studies.

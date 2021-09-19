@@ -86,6 +86,7 @@
 
 .backContainer:hover {
     text-decoration: none;
+    cursor: pointer;
 }
 
 .backContainerText {

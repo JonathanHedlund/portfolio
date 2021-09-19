@@ -8,7 +8,9 @@ const PreviousWorkItem = (props) => {
         <div className={styles.previousWorkLink}>
             <div className={props.flip ? styles.previousItemContainerFlipped : styles.previousItemContainer}>
             <Link href={props.link}>
-                <a className={props.flip ? styles.previousItemImageFlipped : styles.previousItemImage} style={{ backgroundImage: 'url(' + props.img + ')'}}>
+                    <a className={props.flip ? styles.previousItemImageFlipped : styles.previousItemImage} style={{ backgroundImage: 'url(' + props.img + ')'}}>
+                        <div className={props.flip ? styles.previousItemImageFlippedMobile : styles.previousItemImageMobile} style={{ backgroundImage: 'url(' + props.img + ')'}}>
+                    </div>
                 </a>
             </Link>
                 <div className={styles.previousItemInformation}>

@@ -1,10 +1,13 @@
 import Link from 'next/link'
+import { useRouter } from 'next/router'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 import styles from '../../styles/Portfolio.module.css'
 
-const PortfolioHeader = ({children, img, experienceType, header, text, role, timeframe}) => {
+const PortfolioHeader = ({children, img, experienceType, header, text, role, timeframe, link}) => {
+    const router = useRouter()
+
     return (
         <>
             <div className={styles.portfolioHeaderBackground} style={
@@ -15,12 +18,10 @@ const PortfolioHeader = ({children, img, experienceType, header, text, role, tim
                 </div>
             </div>
             <div className={styles.portfolioHeaderInfoContainer}>
-                <Link href="/portfolio">
-                    <a className={styles.backContainer}>
-                        <FontAwesomeIcon icon={['fas', 'chevron-left']} className={styles.icon} />
-                        <span className={styles.backContainerText}>Back</span>
-                    </a>
-                </Link>
+                <div className={styles.backContainer} onClick={() => router.back()}>
+                    <FontAwesomeIcon icon={['fas', 'chevron-left']} className={styles.icon} />
+                    <span className={styles.backContainerText}>Back</span>
+                </div>
                 <div className={styles.portfolioHeaderInfoContainerInner}>
                     <div className={styles.portfolioHeaderInfoContainerInnerContent}>
                         <span className={styles.headerInfoType}>{experienceType}</span>
@@ -38,6 +39,13 @@ const PortfolioHeader = ({children, img, experienceType, header, text, role, tim
                                 <p className={styles.headerInfoMetaText}>{timeframe}</p>
                             </div>
                         </div>
+                        {link && 
+                        <div className={styles.headerInfoTimeFrame}>
+                            <span className={styles.headerInfoMetaType}>Link</span>
+                            <a href={link}>
+                                <p className={styles.headerInfoMetaText}>{link}</p>
+                            </a>
+                        </div>}
                     </div>
                 </div>
             </div>

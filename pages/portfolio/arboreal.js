@@ -9,15 +9,16 @@ const arboreal = () => {
     return (
         <div className={portfolioStyles.portfolioPageContainer}>
             <PortfolioHeader 
-                img=""
+                img="/arboreal-show-case.png"
                 experienceType="Project"
                 header="Arboreal"
-                role="Co-founder - CTO"
-                timeframe="Januari 2019 - May 2019"
-                text="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula 
-                    eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient 
-                    montes, nascetur ridiculus mus. Donec quam felis, ultricies nec. Cum sociis natoque 
-                    penatibus et magnis dis parturient montes, nascetur.">
+                role="School project"
+                timeframe="January 2019 - May 2019"
+                text="Forest measurements with your mobile phone. Arboreal uses AR technology to transform 
+                    the forest into a digital variant where you can perform measurements in real time. 
+                    As a part of a school project, I worked alongside four others to help the start-up company 
+                    Arboreal design a prototype of the full user flow for their service through a 
+                    process called Design Build Test (DBT).">
                 <HeaderNav />
             </PortfolioHeader>
             <div className={portfolioStyles.portfolioPageContainerContent}>
