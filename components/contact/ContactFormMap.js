@@ -11,7 +11,7 @@ const ContactFormMap = () => {
           lat: 63.825848,
           lng: 20.263035
         },
-        zoom: 13
+        zoom: 6
       };
 
       const handleApiLoaded = (map, maps) => {
