@@ -5,7 +5,7 @@ import styles from '../../styles/PreviousWork.module.css'
 const PreviousWorkContainer = () => {
     return (
         <div className={styles.previousWorkContainer}>
-            <h2 className={styles.header}>Some of my previous work</h2>
+            <h2 className={styles.header}>Some of my previous projects</h2>
             <div>
                 <PreviousWorkItem 
                     img="/hobbies.png"
@@ -18,8 +18,7 @@ const PreviousWorkContainer = () => {
                         developed during a course focusing on the entire business development process, 
                         from idea to presentation of a finished prototype and business plan."
                     textMobile="A service where the user can connect and communicate with others who have the same 
-                        interests, and get more out of exercising their interests on their own."
-                    />
+                        interests, and get more out of exercising their interests on their own."/>
                 <PreviousWorkItem 
                     img="/arboreal-show-case.png"
                     link="/portfolio/arboreal"
@@ -33,8 +32,7 @@ const PreviousWorkContainer = () => {
                     process called Design Build Test (DBT)."
                     textMobile="Forest measurements with your mobile phone. Arboreal uses AR technology to transform 
                     the forest into a digital variant where we can perform measurements in real time."
-                    flip={true}
-                    />
+                    flip={true} />
             </div>
         </div>
     )

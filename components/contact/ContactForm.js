@@ -32,7 +32,7 @@ const ContactForm = () => {
         <form className={styles.formContainer} onSubmit={sendEmail} ref={form}>
             <h2 className={styles.header}>Contact me!</h2>
             <p className={styles.desc}>
-                Get in touch with me to by filling out the contact form below.
+                I'm currently living in Umeå, Sweden. Get in touch with me to by filling out the contact form below.
             </p>
             <input type="text" name="from" className={styles.textInput} placeholder="Email"/>
             <input type="text" name="subject" className={styles.textInput} placeholder="Subject"/>
