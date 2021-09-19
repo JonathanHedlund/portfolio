@@ -34,14 +34,14 @@ const ContactForm = () => {
             <p className={styles.desc}>
                 Get in touch with me to by filling out the contact form below.
             </p>
-            {formStatus &&             
-            <div className={formStatus.status ? styles.contactFormStatusSuccess : styles.contactFormStatusError}>
-                {formStatus.message}
-            </div>}
             <input type="text" name="from" className={styles.textInput} placeholder="Email"/>
             <input type="text" name="subject" className={styles.textInput} placeholder="Subject"/>
             <textarea name="message" id="" cols="30" rows="10" className={styles.textArea} placeholder="Message"></textarea>
             <input type="submit" className={`btn ${styles.formSubmitButton}`} value="Send!"/>
+            {formStatus &&             
+            <div className={formStatus.status ? styles.contactFormStatusSuccess : styles.contactFormStatusError}>
+                {formStatus.message}
+            </div>}
         </form>
     )
 }
