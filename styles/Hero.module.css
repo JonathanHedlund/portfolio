@@ -2,24 +2,57 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 80px;
     margin-bottom: 40px;
+    z-index: 5;
+    overflow: hidden !important;
+}
+
+.heroContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
 }
 
 .welcomeText {
     text-align: center;
     font-size: 1.4rem;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .nameText {
     text-align: center;
-    margin-bottom: 60px;
+    margin-bottom: 20px;
+    z-index: 5;
+}
+
+.heroTagContainer {
+    display: flex;
+    justify-self: center;
+    flex-wrap: wrap;
+    margin-bottom: 80px;
+}
+
+.heroTag {
+    color: black;
+    background-color: rgb(230, 230, 230);
+    border-radius: 10px;
+    padding: 14px 12px;
+    margin: 0 5px 5px;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.heroLinksContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .contactButton {
     width: 230px;
-    margin-bottom: 80px;
+    margin-bottom: 130px;
     font-size: 1.2rem;
 }
 
@@ -35,11 +68,13 @@
     flex-direction: column;
     width: 90px;
     transition: 0.15s;
+    color: #3A5FD8;
+
 }
 
 .heroIconContainer:hover {
     text-decoration: none;
-    color: #3A5FD8;
+    color: #6e90ff;
 }
 
 .icon {
@@ -52,12 +87,111 @@
     font-size: 1.1rem;
 }
 
+.heroTellusContainer {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+    margin-top: -80px;
+    z-index: -1;
+}
+
+.heroTellusMobile {
+    width: 600px;
+    align-items: center;
+}
+
+.heroTellus {
+    display: none;
+}
+
 @media only screen and (min-width: 1000px) {
+    .heroContent {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 40px;
+    }
+    
     .welcomeText {
+        text-align: center;
+        font-size: 1.4rem;
+        margin-bottom: 10px;
+    }
+    
+    .nameText {
+        text-align: center;
         margin-bottom: 20px;
+        z-index: 5;
+        font-size: 3.5rem;
+    }
+
+    .heroTagContainer {
+        margin-bottom: 60px;
+    }
+
+    .heroTag {
+        color: black;
+        background-color: rgb(230, 230, 230);
+        padding: 10px 20px;
+    }
+
+    .contactButton {
+        margin-bottom: 35px;
+        margin-right: 10px;
     }
 
     .heroLinkContainer {
-        width: 430px;
+        width: 290px;
+    }
+
+    .heroLinksContainer {
+        display: flex;
+        flex-direction: row;
+        align-items: none;
+    }
+
+    .heroContainer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 40px;
+        margin-bottom: 100px;
+        z-index: 5;
+    }
+
+    .heroTellusContainer {
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        overflow: hidden !important;
+        width: auto;
+        margin-top: -30px;
+        margin-left: 38%;
+        z-index: -1;
+    }
+
+    .heroTellusMobile {
+        width: 600px;
+        align-items: center;
+        display: none;
+    }
+    
+    .heroTellus {
+        display: block;
+        width: 550px;
+    }
+
+    .heroIconContainer {
+        display: flex;
+        flex-direction: column;
+        width: 90px;
+        transition: 0.15s;
+    }
+
+    .icon {
+        font-size: 1.2rem;
+        height: 35px;
     }
 }
