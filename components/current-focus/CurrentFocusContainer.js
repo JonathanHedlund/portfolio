@@ -28,7 +28,7 @@ const CurrentFocusContainer = () => {
                     header="Umeå University" 
                     role="Student"
                     timeslot="August 2016 - Current"
-                    text="Currently a student at Umeå University studying Interaction design and economics."
+                    text="I'm currently a student at Umeå University studying interaction design and economics."
                     link="/portfolio/umeauniversity"
                 />
             </div>

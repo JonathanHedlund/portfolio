@@ -20,7 +20,7 @@
 
 .portfolioPageContainerContentInner {
     padding-top: 25px;
-    width: 85%;
+    width: 90%;
     z-index: 7;
 }
 
@@ -48,7 +48,7 @@
 }
 
 .portfolioHeaderContainerInner {
-    width: 85%;
+    width: 90%;
     max-width: 900px;
 }
 
@@ -67,7 +67,7 @@
 }
 
 .portfolioHeaderInfoContainerInnerContent {
-    width: 85%;
+    width: 90%;
     padding: 30px 0px 25px;
 }
 
@@ -111,8 +111,8 @@
 }
 
 .headerInfoText {
-    font-size: 1.2rem;
-    line-height: 32px;
+    font-size: 1.1rem;
+    line-height: 29px;
     font-weight: 300;
     margin-bottom: 40px;
     margin-top: 0px;

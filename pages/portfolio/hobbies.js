@@ -83,7 +83,7 @@ const hobbies = () => {
                         and it is because of that interest I have decided to search for opportunities in those areas.
                         Splick and Uminova Innovation are two great examples of that. That ends the Hobbies chapter in
                         my life for now, but who knows, if I find the time in the future it might be something that I 
-                        want to pursue further'/>
+                        want to pursue further.'/>
 
                 </div>
             </div>
