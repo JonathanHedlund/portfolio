@@ -21,7 +21,7 @@ const HeroContainer = () => {
                         Get in touch
                     </div>
                     <div className={styles.heroLinkContainer}>
-                        <HeroIconLink text="" icon={"envelope"} iconType="far" link="mailto:jonathan.hedlund.371@gmail.com"/>
+                        <HeroIconLink text="" icon={"envelope"} iconType="fas" link="mailto:jonathan.hedlund.371@gmail.com"/>
                         <HeroIconLink text="" icon={"linkedin"} iconType="fab" link="https://www.linkedin.com/in/jonathanhedlund/"/>
                         <HeroIconLink text="" icon={"book"} iconType="fas" link="https://www.goodreads.com/user/show/89568653-jonathan-hedlund"/>
                     </div>
