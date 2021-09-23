@@ -57,7 +57,7 @@
     justify-content: center;
     width: stretch;
     border-radius: 0 10px 10px 0;
-    padding: 12px 15px 8px 18px;
+    padding: 14px 15px 14px 18px;
 }
 
 .publicationInformation {
@@ -86,6 +86,7 @@
     margin: 0;
     font-size: 0.85rem;
     font-weight: 400;
+    line-height: 24px;
 }
 
 @media only screen and (min-width: 1000px) {
