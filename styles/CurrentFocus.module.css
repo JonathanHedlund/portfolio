@@ -64,6 +64,11 @@
 }
 
 @media only screen and (min-width: 1000px) {
+    .header {
+        margin-bottom: 35px;
+        font-size: 2rem;
+    }
+
     .currentFocuses {
         flex-direction: row;
         flex-wrap: wrap;
