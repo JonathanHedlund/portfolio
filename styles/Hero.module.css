@@ -69,7 +69,6 @@
     width: 90px;
     transition: 0.15s;
     color: #3A5FD8;
-
 }
 
 .heroIconContainer:hover {
@@ -78,7 +77,6 @@
 }
 
 .icon {
-    font-size: 1.2rem;
     height: 40px;
 }
 
@@ -189,12 +187,13 @@
     .heroIconContainer {
         display: flex;
         flex-direction: column;
+        align-items: center;
         width: 90px;
         transition: 0.15s;
+
     }
 
     .icon {
-        font-size: 1.2rem;
         height: 35px;
     }
 }
