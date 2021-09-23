@@ -5,12 +5,12 @@
 }
 
 .header {
-    margin: 0 0 10px;
+    margin: 0 0 20px;
     font-size: 1.8rem;
 }
 
 .desc {
-    margin: 0 0 20px;
+    margin: 0 0 35px;
 }
 
 .textInput {
@@ -19,7 +19,7 @@
     border-radius: 10px;
     border: 0;
     background-color: #272727;
-    font-size: 1rem;
+    font-size: 1.05rem;
     color: #fff;
 }
 
@@ -31,7 +31,7 @@
     background-color: #272727;
     font-family: 'Lato', -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-    font-size: 1rem;
+    font-size: 1.05rem;
     resize: none;
     color: #fff;
 }
@@ -39,6 +39,7 @@
 .formSubmitButton {
     border: 0;
     color: #fff;
+    font-size: 1.1rem;
 }
 
 .mapContainer {
