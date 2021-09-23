@@ -66,7 +66,7 @@
 .heroIconContainer {
     display: flex;
     flex-direction: column;
-    width: 90px;
+    width: 90px !important;
     transition: 0.15s;
     color: #3A5FD8;
 }
@@ -199,6 +199,7 @@
     .icon {
         font-size: 1.2rem;
         height: 35px;
+        width: auto !important;
         font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
         Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
     }
