@@ -1,4 +1,8 @@
 .experienceCollectionContainer {
+    margin-bottom: -60px;
+}
+
+.experienceCollectionContainerHome {
     margin-bottom: 40px;
 }
 
@@ -85,8 +89,12 @@
 }
 
 @media only screen and (min-width: 1000px) {
-    .experienceCollectionContainer {
+    .experienceCollectionContainerHome {
         margin-bottom: 80px;
+    }
+
+    .experienceCollectionContainer {
+        margin-bottom: 0px;
     }
 
     .experienceContainer {

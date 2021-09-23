@@ -7,7 +7,7 @@ import styles from '../../styles/Experience.module.css'
 
 const ExperienceCollectionHome = () => {
     return (
-        <div className={styles.experienceCollectionContainer}>
+        <div className={styles.experienceCollectionContainerHome}>
             <ExperienceContainerHome />
             <ProjectsContainerHome />
             <PublicationContainer />
