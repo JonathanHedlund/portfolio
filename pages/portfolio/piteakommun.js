@@ -10,7 +10,7 @@ const piteakommun = () => {
         <div className={portfolioStyles.portfolioPageContainer}>
             <PortfolioHeader 
                 img=""
-                experienceType="Experience"
+                experienceType="EXPERIENCE"
                 header="Piteå kommun"
                 role="Supervisor at Ung i Piteå"
                 timeframe="June 2016 - September 2018"

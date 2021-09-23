@@ -10,7 +10,7 @@ const uminovainnovation = () => {
         <div className={portfolioStyles.portfolioPageContainer}>
             <PortfolioHeader 
                 img=""
-                experienceType="Experience"
+                experienceType="EXPERIENCE"
                 header="Uminova Innovation"
                 role="Student communicator"
                 timeframe="February 2020 - April 2021"

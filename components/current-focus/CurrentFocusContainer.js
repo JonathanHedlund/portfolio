@@ -11,7 +11,7 @@ const CurrentFocusContainer = () => {
                     img="/splick.png"
                     header="Splick" 
                     role="Co-founder"
-                    timeslot="Mars 2020 - Current"
+                    timeslot="MARS 2020 - CURRENT"
                     text="A next-generation platform for helping e-commerce companies and influencers connect and collaborate."
                     link="/portfolio/splick"
                     />
@@ -19,7 +19,7 @@ const CurrentFocusContainer = () => {
                     img="/intam.png"
                     header="Intam" 
                     role="Founder"
-                    timeslot="August 2020 - Current"
+                    timeslot="AUGUST 2020 - CURRENT"
                     text="A web agency that specializes in creating user-friendly and responsive websites tailored for the customer's goals."
                     link="/portfolio/intam"
                 />
@@ -27,7 +27,7 @@ const CurrentFocusContainer = () => {
                     img="/klassfoto.jpg"
                     header="Umeå University" 
                     role="Student"
-                    timeslot="August 2016 - Current"
+                    timeslot="AUGUST 2016 - CURRENT"
                     text="I'm currently a student at Umeå University studying interaction design and economics."
                     link="/portfolio/umeauniversity"
                 />

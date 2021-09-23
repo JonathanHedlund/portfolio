@@ -12,7 +12,7 @@ const PreviousWorkContainer = () => {
                     link="/portfolio/hobbies"
                     header="Hobbies"
                     tags="Design, Entreprenourship"
-                    timeslot="August 2020 - January 2021"
+                    timeslot="AUGUST 2020 - JANUARY 2021"
                     text="A service where the user can connect and communicate with others who have the same 
                         interests, and get more out of exercising their interests on their own. This service was
                         developed during a course focusing on the entire business development process, 
@@ -24,7 +24,7 @@ const PreviousWorkContainer = () => {
                     link="/portfolio/arboreal"
                     header="Arboreal Prototype"
                     tags="Design, Prototyping"
-                    timeslot="January 2019 - June 2019"
+                    timeslot="JANUARY 2019 - JUNE 2019"
                     text="Forest measurements with your mobile phone. Arboreal uses AR technology to transform 
                         the forest into a digital variant where you can perform measurements in real time. 
                         As a part of a school project, I worked alongside four others to help the start-up company 

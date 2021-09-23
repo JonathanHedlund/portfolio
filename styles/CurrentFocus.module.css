@@ -13,6 +13,7 @@
 
 .header {
     margin-bottom: 35px;
+    font-size: 1.5rem;
 }
 
 .image {
@@ -38,6 +39,11 @@
     margin-right: 30px;
 }
 
+.text {
+    font-size: 1.15rem;
+    line-height: 30px;
+}
+
 .readMoreLink {
     margin-bottom: 15px;
 }
@@ -51,6 +57,10 @@
 .icon {
     width: 25px;
     margin: 3px 0 0 15px;
+}
+
+.timeslot {
+    font-size: 0.9rem;
 }
 
 @media only screen and (min-width: 1000px) {
@@ -71,15 +81,15 @@
 
     .headerFocus {
         font-size: 1.5rem;
-        margin-bottom: 12px;    
+        margin-bottom: 8px;    
     }
 
     .metaContainer {
-        font-size: 1rem;
+        font-size: 1.1rem;
     }
 
     .readMoreLink {
-        font-size: 1.1rem;
+        font-size: 1.15rem;
     }
 
     .text {
@@ -88,6 +98,6 @@
     }
 
     .link {
-        font-size: 1rem;
+        font-size: 1.05rem;
     }
   }

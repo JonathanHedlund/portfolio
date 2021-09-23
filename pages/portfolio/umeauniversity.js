@@ -10,7 +10,7 @@ const umeauniversity = () => {
         <div className={portfolioStyles.portfolioPageContainer}>
             <PortfolioHeader 
                 img=""
-                experienceType="Education"
+                experienceType="EDUCATION"
                 header="Umeå University"
                 role="Student"
                 timeframe="August 2016 - Current"

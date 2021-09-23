@@ -10,7 +10,7 @@ const nordic = () => {
         <div className={portfolioStyles.portfolioPageContainer}>
             <PortfolioHeader 
                 img="/splick.png"
-                experienceType="Experience"
+                experienceType="PROJECT"
                 header="Nordic JS & Nordic Design"
                 role="Attendees - Team Lead"
                 timeframe="September 2019"

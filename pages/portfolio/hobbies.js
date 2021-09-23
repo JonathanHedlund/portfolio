@@ -11,9 +11,9 @@ const hobbies = () => {
         <div className={portfolioStyles.portfolioPageContainer}>
             <PortfolioHeader 
                 img="/hobbies.png"
-                experienceType="Experience"
+                experienceType="PROJECT"
                 header="Hobbies"
-                role="Project"
+                role="Creator"
                 timeframe="August 2020 - January 2021"
                 link='https://xd.adobe.com/view/1e625227-5a3c-4ad1-b210-8c2349785bd0-4b31/'
                 text="A service where the user can connect and communicate with others who have the same 

@@ -10,7 +10,7 @@ const individ = () => {
         <div className={portfolioStyles.portfolioPageContainer}>
             <PortfolioHeader 
                 img=""
-                experienceType="Experience"
+                experienceType="PROJECT"
                 header="IndivID"
                 role="Chairman"
                 timeframe="September 2018 - Oktober 2019"

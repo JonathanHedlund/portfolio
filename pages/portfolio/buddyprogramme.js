@@ -10,7 +10,7 @@ const buddyprogramme = () => {
         <div className={portfolioStyles.portfolioPageContainer}>
             <PortfolioHeader 
                 img=""
-                experienceType="Project"
+                experienceType="PROJECT"
                 header="Buddy programme"
                 role="Group Leader"
                 timeframe="August 2017 - December 2017"

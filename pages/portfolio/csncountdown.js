@@ -10,7 +10,7 @@ const csncountdown = () => {
         <div className={portfolioStyles.portfolioPageContainer}>
             <PortfolioHeader 
                 img="/splick.png"
-                experienceType="Experience"
+                experienceType="EXPERIENCE"
                 header="Splick"
                 role="Co-founder - CTO"
                 timeframe="April 2020 - Current"

@@ -10,7 +10,7 @@ const idagochinatt = () => {
         <div className={portfolioStyles.portfolioPageContainer}>
             <PortfolioHeader 
                 img="/klassfoto.jpg"
-                experienceType="Project"
+                experienceType="PROJECT"
                 header="IDag & Inatt"
                 role="Project manager"
                 timeframe="September 2018 - Oktober 2019"

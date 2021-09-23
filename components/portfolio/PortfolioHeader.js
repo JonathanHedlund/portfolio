@@ -31,17 +31,17 @@ const PortfolioHeader = ({children, img, experienceType, header, text, role, tim
                         </p>
                         <div className={styles.headerInfoMetaContainer}>
                             <div className={styles.headerInfoRole}>
-                                <span className={styles.headerInfoMetaType}>Role</span>
+                                <span className={styles.headerInfoMetaType}>ROLE</span>
                                 <p className={styles.headerInfoMetaText}>{role}</p>
                             </div>
                             <div className={styles.headerInfoTimeFrame}>
-                                <span className={styles.headerInfoMetaType}>Timeframe</span>
+                                <span className={styles.headerInfoMetaType}>TIMEFRAME</span>
                                 <p className={styles.headerInfoMetaText}>{timeframe}</p>
                             </div>
                         </div>
                         {link && 
                         <div className={styles.headerInfoTimeFrame}>
-                            <span className={styles.headerInfoMetaType}>Link</span>
+                            <span className={styles.headerInfoMetaType}>LINK</span>
                             <a href={link}>
                                 <p className={styles.headerInfoMetaText}>{link}</p>
                             </a>

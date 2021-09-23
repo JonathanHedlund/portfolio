@@ -66,7 +66,7 @@
 }
 
 .itemHeader {
-    margin: 0 0 2px;
+    margin: 0 0 0px;
     font-size: 1.05rem;
     font-weight: 500;
     line-height: 22px;
@@ -80,8 +80,8 @@
 
 .itemTimeslot {
     margin: 0;
-    font-size: 0.7rem;
-    font-weight: 300;
+    font-size: 0.85rem;
+    font-weight: 400;
 }
 
 @media only screen and (min-width: 1000px) {
@@ -106,16 +106,16 @@
     }
 
     .itemHeader {
-        font-size: 1.05rem;
+        font-size: 1.15rem;
         margin-bottom: 3px;
     }
 
     .itemRole {
-        font-size: 1rem;
+        font-size: 1.05rem;
     }
 
     .itemTimeslot {
-        font-size: 0.85rem;
+        font-size: 0.9rem;
         font-weight: 400;
     }
     

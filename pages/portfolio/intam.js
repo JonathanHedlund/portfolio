@@ -10,7 +10,7 @@ const intam = () => {
         <div className={portfolioStyles.portfolioPageContainer}>
             <PortfolioHeader 
                 img="/intam.png"
-                experienceType="Experience"
+                experienceType="EXPERIENCE"
                 header="Intam"
                 role="Founder"
                 timeframe="August 2020 - Current"
