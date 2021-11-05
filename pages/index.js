@@ -14,8 +14,8 @@ export default function Home() {
       <HeaderNav />
       <HeroContainer />
       <CurrentFocusContainer />
-      <PreviousWorkContainer />
       <AboutHomeContainer />
+      <PreviousWorkContainer />
       <ExperienceCollectionHome />
       <ContactFormContainer />
     </div>

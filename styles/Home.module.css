@@ -12,3 +12,24 @@
   display: flex;
   justify-content: center;
 }
+
+.footerContainer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.footerContainerInner {
+  display: flex;
+  align-items: center;
+}
+
+.footerIcon {
+  width: 28px;
+  color: #fff;
+  margin-right: 25px;
+}
+
+.footerText {
+  margin-top: 2px;
+}

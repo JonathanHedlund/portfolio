@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 import styles from '../../styles/Portfolio.module.css'
 
-const PortfolioHeader = ({children, img, experienceType, header, text, role, timeframe, link}) => {
+const PortfolioHeader = ({children, img, experienceType, header, text, role, timeframe, link, linkName}) => {
     const router = useRouter()
 
     return (
@@ -40,12 +40,11 @@ const PortfolioHeader = ({children, img, experienceType, header, text, role, tim
                             </div>
                         </div>
                         {link && 
-                        <div className={styles.headerInfoTimeFrame}>
-                            <span className={styles.headerInfoMetaType}>LINK</span>
-                            <a href={link}>
-                                <p className={styles.headerInfoMetaText}>{link}</p>
+                            <a href={link} className={styles.headerInfoLinkContainer}>
+                                <p className={styles.headerInfoLinkName}>{linkName}</p>
+                                <FontAwesomeIcon icon={['fas', 'long-arrow-alt-right']} className={styles.linkIcon} />
                             </a>
-                        </div>}
+                        }
                     </div>
                 </div>
             </div>

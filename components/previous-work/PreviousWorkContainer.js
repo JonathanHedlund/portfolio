@@ -26,12 +26,12 @@ const PreviousWorkContainer = () => {
                     tags="Design, Prototyping"
                     timeslot="JANUARY 2019 - JUNE 2019"
                     text="Forest measurements with your mobile phone. Arboreal uses AR technology to transform 
-                        the forest into a digital variant where you can perform measurements in real time. 
+                        the forest into a digital variant where you can perform measurements in real-time. 
                         As a part of a school project, I worked alongside four others to help the start-up company 
                         Arboreal design a prototype of the full user flow for their service through a 
                         process called Design Build Test (DBT)."
                     textMobile="Forest measurements with your mobile phone. Arboreal uses AR technology to transform 
-                        the forest into a digital variant where we can perform measurements in real time."
+                        the forest into a digital variant where we can perform measurements in real-time."
                     flip={true} />
             </div>
         </div>

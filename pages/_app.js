@@ -8,6 +8,9 @@ import { far } from "@fortawesome/free-regular-svg-icons";
 import { fas } from "@fortawesome/free-solid-svg-icons";
 library.add(fab, far, fas);
 
+import Footer from '../components/Footer.js'
+
+
 import '../styles/globals.css'
 import styles from '../styles/Home.module.css'
 
@@ -26,9 +29,7 @@ function MyApp({ Component, pageProps }) {
       <div className={styles.pageContent}>
         <Component {...pageProps} />
       </div>
-      <footer className={styles.footer}>
-
-      </footer>
+      <Footer />
     </div>
   )
 }

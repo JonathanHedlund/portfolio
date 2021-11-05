@@ -149,9 +149,22 @@
 .portfolioLinkContainer {
     background-color: #1D1D1D;
     box-shadow: 0px 3px 12px #0000006c;
-    padding: 25px 20px;
+    padding: 25px 30px;
     border-radius: 10px;
     margin: 30px 0;
+}
+
+.headerInfoLinkContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.headerInfoLinkName {
+    margin-right: 15px;
+}
+
+.linkIcon {
+    width: 20px;
 }
 
 .portfolioLink {
@@ -161,6 +174,18 @@
 
 .portfolioImage {
     width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-top: 25px;
+}
+
+.portfolioImageVerticalContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.portfolioImageVertical {
+    width: 55%;
     border-radius: 10px;
     margin-bottom: 20px;
     margin-top: 25px;

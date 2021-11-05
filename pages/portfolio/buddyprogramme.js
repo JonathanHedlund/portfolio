@@ -9,7 +9,7 @@ const buddyprogramme = () => {
     return (
         <div className={portfolioStyles.portfolioPageContainer}>
             <PortfolioHeader 
-                img=""
+                img="/buddypic.jpeg"
                 experienceType="PROJECT"
                 header="Buddy programme"
                 role="Group Leader"
@@ -23,10 +23,14 @@ const buddyprogramme = () => {
             </PortfolioHeader>
             <div className={portfolioStyles.portfolioPageContainerContent}>
                 <div className={portfolioStyles.portfolioPageContainerContentInner}>
-                    <PortfolioText text="I've been part of the Buddy Programme during two semesters, first during 
+                    <PortfolioText text="I've been a part of the Buddy Programme for two semesters, first during 
                         the fall semester of 2017 as a group leader and during the spring semester of 2018 as a group 
                         member. I got the opportunity to get to know some amazing people through the Buddy Programme 
                         and I'm happy I took the chance to participate." />
+                    <PortfolioText 
+                        text="The image below is from one of the futsal events we organized for our
+                        group during the fall semster of 2017." />
+                    <PortfolioImage img="/indoorsoccer.jpeg" />
                 </div>
             </div>
         </div>
