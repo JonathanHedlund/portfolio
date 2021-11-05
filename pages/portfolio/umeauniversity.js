@@ -24,9 +24,9 @@ const umeauniversity = () => {
             <div className={portfolioStyles.portfolioPageContainerContent}>
                 <div className={portfolioStyles.portfolioPageContainerContentInner}>
                     <PortfolioText 
-                        text="I started my studies at Umeå University in the fall of 2016, right after I finished
-                        high school. I wasn't really sure what I wanted to do after high school, I knew I wanted
-                        to study further but I did not know what program was most suited for me. At the time I was
+                        text="I started my studies at Umeå University in the fall of 2016. I wasn't really sure what I
+                        wanted to do after high school, I knew I wanted to study further but I did not know what 
+                        program was most suited for me. At the time I was
                         interested in design and economics so my first thought was something related to those
                         subjects. At the time my sister was studying the Master of Science in Interaction & Design at 
                         Umeå University, I had visited her a few times during 2016 and that was how I first heard

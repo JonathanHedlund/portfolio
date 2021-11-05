@@ -22,16 +22,49 @@
 .footerContainerInner {
   display: flex;
   align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0 30px;
 }
 
 .footerIcon {
-  width: 28px !important;
+  width: 32px !important;
+  font-size: 1.6rem;
   color: #fff;
-  margin-right: 25px;
+  margin-right: 20px;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
   Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
 .footerText {
+  display: none;
   margin-top: 2px;
+}
+
+.footerTextMobile {
+  margin-top: 2px;
+
+}
+
+@media only screen and (min-width: 900px) {
+  .footerContainerInner {
+    display: flex;
+    align-items: center;
+  }
+  
+  .footerIcon {
+    width: 28px !important;
+    color: #fff;
+    margin-right: 25px;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  }
+  
+  .footerText {
+    display: block;
+  }
+
+  .footerTextMobile {
+    display: none;
+  }
 }
