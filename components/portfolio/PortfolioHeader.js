@@ -40,7 +40,7 @@ const PortfolioHeader = ({children, img, experienceType, header, text, role, tim
                             </div>
                         </div>
                         {link && 
-                            <a href={link} className={styles.headerInfoLinkContainer}>
+                            <a href={link} target="_blank" className={styles.headerInfoLinkContainer}>
                                 <p className={styles.headerInfoLinkName}>{linkName}</p>
                                 <FontAwesomeIcon icon={['fas', 'long-arrow-alt-right']} className={styles.linkIcon} />
                             </a>

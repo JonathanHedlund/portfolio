@@ -145,6 +145,7 @@
 
 .portfolioText {
     margin-bottom: 15px;
+    margin-top: 10px;
 }
 
 .portfolioLinkContainer {
@@ -194,6 +195,17 @@
     border-radius: 10px;
     margin-bottom: 20px;
     margin-top: 25px;
+}
+
+.portfolioTitleContainer {
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+.portfolioTitle {
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin-bottom: 0;
 }
 
 @media only screen and (min-width: 900px) {
@@ -266,5 +278,10 @@
 
     .portfolioImageVertical {
         width: 55%;
+    }
+    .portfolioTitle {
+        font-size: 1.8rem;
+        font-weight: 500;
+        margin-bottom: 0;
     }
 }

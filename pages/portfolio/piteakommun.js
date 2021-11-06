@@ -1,6 +1,7 @@
 import HeaderNav from '../../components/HeaderNav'
 import PortfolioHeader from '../../components/portfolio/PortfolioHeader'
 import PortfolioImage from '../../components/portfolio/PortfolioImage'
+import PortfolioTitle from '../../components/portfolio/PortfolioTitle'
 import PortfolioText from '../../components/portfolio/PortfolioText'
 
 import portfolioStyles from '../../styles/Portfolio.module.css'
@@ -23,6 +24,7 @@ const piteakommun = () => {
             </PortfolioHeader>
             <div className={portfolioStyles.portfolioPageContainerContent}>
                 <div className={portfolioStyles.portfolioPageContainerContentInner}>
+                    <PortfolioTitle title="About balkongprojektet" />
                     <PortfolioText 
                         text="Balkongprojektet is a great way for the youth in Piteå to get out and partake in
                         activities where they can have fun and be themselves. Balkongprojectet wants to reach 
@@ -36,6 +38,7 @@ const piteakommun = () => {
                         13-25 years. All events are free to attend and can consist of everything from volleyball 
                         tournaments, mini golf, cinema evenings, treasure hunts, soap football, and 
                         outdoor swimming in the evening sun."/>
+                    <PortfolioTitle title="My role" />
                     <PortfolioText 
                         text="I worked as one of the supervisors for the organization during the summer of 2016, 
                         2017, and 2018. It was some of the most fun and rewarding work I have ever done. 

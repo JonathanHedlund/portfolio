@@ -2,6 +2,7 @@ import HeaderNav from '../../components/HeaderNav'
 import PortfolioHeader from '../../components/portfolio/PortfolioHeader'
 import PortfolioImage from '../../components/portfolio/PortfolioImage'
 import PortfolioImageVertical from '../../components/portfolio/PortfolioImageVertical'
+import PortfolioTitle from '../../components/portfolio/PortfolioTitle'
 import PortfolioText from '../../components/portfolio/PortfolioText'
 import PortfolioLink from '../../components/portfolio/PortfolioLink'
 
@@ -23,6 +24,7 @@ const umeauniversity = () => {
             </PortfolioHeader>
             <div className={portfolioStyles.portfolioPageContainerContent}>
                 <div className={portfolioStyles.portfolioPageContainerContentInner}>
+                    <PortfolioTitle title="My choice of education" />
                     <PortfolioText 
                         text="I started my studies at Umeå University in the fall of 2016. I wasn't really sure what I
                         wanted to do after high school, I knew I wanted to study further but I did not know what 
@@ -33,6 +35,7 @@ const umeauniversity = () => {
                         about the program. The program consists of areas such as programming, design, 
                         behavioral science, user testing, web design, and project management. I thought this
                         sounded pretty interesting so I applied for the program and got in."/>
+                    <PortfolioTitle title="The education itself" />
                     <PortfolioText 
                         text="I had no prior experience in programming or web development so when I first got
                         there it was a bit overwhelming learning all the new skills required to complete the
@@ -62,6 +65,7 @@ const umeauniversity = () => {
                     <PortfolioLink 
                         link='https://www.umu.se/utbildning/kurser/kandidatuppsats-i-foretagsekonomi/'
                         linkName="Click here to read more about the Bachelor of Science in Economics."/>
+                    <PortfolioTitle title="Bonus" />
                     <PortfolioText 
                         text="Every year at the Master of Science in Interaction & Design program, a student 
                         currently studying the fourth year is voted the student of the year. It is given to a 

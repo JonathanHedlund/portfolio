@@ -1,6 +1,7 @@
 import HeaderNav from '../../components/HeaderNav'
 import PortfolioHeader from '../../components/portfolio/PortfolioHeader'
 import PortfolioImage from '../../components/portfolio/PortfolioImage'
+import PortfolioTitle from '../../components/portfolio/PortfolioTitle'
 import PortfolioText from '../../components/portfolio/PortfolioText'
 
 import portfolioStyles from '../../styles/Portfolio.module.css'

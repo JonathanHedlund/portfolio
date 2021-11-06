@@ -9,11 +9,13 @@ const csncountdown = () => {
     return (
         <div className={portfolioStyles.portfolioPageContainer}>
             <PortfolioHeader 
-                img="/splick.png"
-                experienceType="EXPERIENCE"
-                header="Splick"
-                role="Co-founder - CTO"
-                timeframe="April 2020 - Current"
+                img="/csncountdownimage.png"
+                experienceType="PROJECT"
+                header="CSN Countdown"
+                role="Creator"
+                timeframe="April 2019 - June 2019"
+                link="https://csncountdown.se"
+                linkName="View the website"
                 text="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula 
                     eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient 
                     montes, nascetur ridiculus mus. Donec quam felis, ultricies nec. Cum sociis natoque 

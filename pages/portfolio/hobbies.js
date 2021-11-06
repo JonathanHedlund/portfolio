@@ -2,6 +2,7 @@ import HeaderNav from '../../components/HeaderNav'
 import PortfolioHeader from '../../components/portfolio/PortfolioHeader'
 import PortfolioImage from '../../components/portfolio/PortfolioImage'
 import PortfolioText from '../../components/portfolio/PortfolioText'
+import PortfolioTitle from '../../components/portfolio/PortfolioTitle'
 import PortfolioLink from '../../components/portfolio/PortfolioLink'
 
 import portfolioStyles from '../../styles/Portfolio.module.css'
@@ -25,6 +26,7 @@ const hobbies = () => {
             </PortfolioHeader>
             <div className={portfolioStyles.portfolioPageContainerContent}>
                 <div className={portfolioStyles.portfolioPageContainerContentInner}>
+                <PortfolioTitle title="Background" />
                     <PortfolioText 
                         text='Hobbies was developed during a course at Umeå University called "Affärsmässig 
                         tjänstedesign och teknikutveckling" where the goal is to take an idea and work with it throughout 
@@ -38,6 +40,7 @@ const hobbies = () => {
                         I could connect to. Instead of continuing to develop the idea further I started working at
                         Uminova Innovation and Splick. So the idea stayed dormant until this course started up.'/>
                     <PortfolioImage img="/hobbies-2.png" />
+                    <PortfolioTitle title="The application" />
                     <PortfolioText 
                         text='I wrote the following paragraph back in January of 2020 and it stayed as
                         our main description of our service throughout the course.'/>
@@ -52,12 +55,14 @@ const hobbies = () => {
                         the user to pursue their hobby. It is also possible to set your own goals or see what others have 
                         set for themselves. The service offers something for everyone; those who want to meet people in 
                         person, those who want to discuss online and for anyone who exercise the interest on their own."/>
+                    <PortfolioTitle title="The course" />
                     <PortfolioText 
                         text='The course was divided into four workshops, all with different tasks and milestones
                         in order to get us to further develop our idea. Some of the tasks in these workshops included
                         developing a Business Model Canvas (BMC), analysis of competitors, analysis of the market, creating
                         plans for revenue streams, and creating a presentable prototype of our service.'/>
                     <PortfolioImage img="/hobbies-3.png" />
+                    <PortfolioTitle title="The design" />
                     <PortfolioText 
                         text="During this collaboration, I was in charge of designing the prototype. I used
                         Adobe XD since it is the tool that I was most familiar with at the time. The screens displayed
@@ -68,6 +73,7 @@ const hobbies = () => {
                     <PortfolioLink 
                         link='https://xd.adobe.com/view/1e625227-5a3c-4ad1-b210-8c2349785bd0-4b31/'
                         linkName="Check out the design for Hobbies!"/>
+                    <PortfolioTitle title="In conclusion" />
                     <PortfolioText 
                         text='At the end of the course, we got to pitch our idea in a "shark tank" in
                         cooperation with Sigma Industry East North. Our project was 
@@ -77,7 +83,7 @@ const hobbies = () => {
                     <PortfolioText 
                         text='In the end, we decided to decline this offer since both Linus and I had
                         a few things going on that we wanted to focus our time on. This course and this
-                        experience was a fun, interesting, and challenging process where we got to work with
+                        experience was a fun, interesting, and a challenging process where we got to work with
                         a project that you could feel more attached to. During the course we got to do a lot
                         of things related to the start-up process that is "less fun", but incredibly healthy 
                         to get more experience at since it is crucial to increasing the success rate to take into 
