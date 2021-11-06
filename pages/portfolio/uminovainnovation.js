@@ -34,16 +34,30 @@ const uminovainnovation = () => {
                         people." />
                     <PortfolioTitle title="How I got involved"/>
                     <PortfolioText 
-                        text="Nordic.js and Nordic Design is a conference filled with talks by internationally renowned 
-                        speakers and rising stars in the JavaScript and design community. I got the opportunity
-                        work as a volunteer at this event in 2019 together with Confetti who is in charge of
-                        organizing this event." />
+                        text="Uminova Innovation has strong connection to the students at Umeå University.
+                        During my first years of studying there I often attended the various events they orgazined
+                        for students who are interested in entrepreneourship. I got to talk to the empleoyees 
+                        at Uminova Innovation in charge of these event whenever I attended and after a while I got 
+                        to know them and they got to know me better. When a position opened up as a
+                        student communicator I got recommended by Magdalena Lindström at Uminova Innovation
+                        to fill that spot. I was excited to get a chance to work closer with Uminova Innovation
+                        and the start-up companies in their incubator." />
                     <PortfolioTitle title="My experience"/>
                     <PortfolioText 
-                        text="Nordic.js and Nordic Design is a conference filled with talks by internationally renowned 
-                        speakers and rising stars in the JavaScript and design community. I got the opportunity
-                        work as a volunteer at this event in 2019 together with Confetti who is in charge of
-                        organizing this event." />
+                        text="I started working there in February of 2020 organizing events and helping
+                        out wherever they needed me. Due to the pandemic hitting Sweden in late March my 
+                        responsebilities at the company changed quite drastically, since we were no longer
+                        able to organize in person events. I got to help out more with Uminova Innovations
+                        general communication, interviewing start-ups, writing articles, and use my web development
+                        experience to build a website for one of their start-up companies." />
+                    <PortfolioText 
+                        text="I thoroughly enjoyed my time at Uminova Innovation, it gave me the opportunity to
+                        meet a lot of interesting people, gain experience in the areas I got to work in, and 
+                        learn more about the start-up process. At one of the events at Umionva Innovation, 
+                        before the pandemic struck, I got in contact with the start-up company Splick where I
+                        started working as their lead developer. I'm glad I took the opportunity to work 
+                        there partly because it opened up a lot of door for me to pursue my interest in 
+                        entreprenourship." />
                 </div>
             </div>
         </div>
