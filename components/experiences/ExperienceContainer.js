@@ -12,25 +12,25 @@ const ExperienceContainer = () => {
                 img="/intam-logo.png"
                 header="Intam"
                 role="Founder"
-                timeslot="AUGUST 2020 - CURRENT"/>
+                timeslot="AUG 2020 - CURRENT"/>
             <ExperienceItem
                 link="/portfolio/splick"
                 img="/splick-logo.png"
                 header="Splick"
                 role="Co-founder - CTO"
-                timeslot="APRIL 2020 - CURRENT"/>
+                timeslot="APR 2020 - CURRENT"/>
             <ExperienceItem
                 link="/portfolio/uminovainnovation"
                 img="/uminovainnovation.png"
                 header="Uminova Innovation"
                 role="Student communicator"
-                timeslot="FEBRUARY 2020 - APRIL 2021"/>
+                timeslot="FEB 2020 - APR 2021"/>
             <ExperienceItem 
                 link="/portfolio/piteakommun"
                 img="/piteakommun.png"
                 header="Piteå kommun"
                 role="Supervisor at Ung i Piteå"
-                timeslot="JUNE 2016 - SEPTEMBER 2018"/>
+                timeslot="JUN 2016 - SEP 2018"/>
         </div>
     )
 }

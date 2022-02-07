@@ -12,13 +12,13 @@ const ExperienceContainerHome = () => {
                 img="/uminovainnovation.png"
                 header="Uminova Innovation"
                 role="Student communicator"
-                timeslot="FEBRUARY 2020 - APRIL 2021"/>
+                timeslot="FEB 2020 - APR 2021"/>
             <ExperienceItem 
                 link="/portfolio/piteakommun"
                 img="/piteakommun.png"
                 header="Piteå kommun"
                 role="Supervisor at Ung i Piteå"
-                timeslot="JUNE 2016 - SEPTEMBER 2018"/>
+                timeslot="JUN 2016 - SEP 2018"/>
         </div>
     )
 }

@@ -12,19 +12,19 @@ const ProjectsContainerHome = () => {
                 img="csncountdown.png"
                 header="CSN Countdown"
                 role="Project"
-                timeslot="APRIL 2019 - MAY 2019"/>
+                timeslot="APR 2019 - MAY 2019"/>
             <ExperienceItem 
                 link="/portfolio/idagochinatt"
                 img="idagochinatt.png"
                 header="IDag & Inatt"
                 role="Project manager"
-                timeslot="SEPTEMBER 2018 - OKTOBER 2019"/>
+                timeslot="SEP 2018 - OKT 2019"/>
             <ExperienceItem 
                 link="/portfolio/buddyprogramme"
                 img="/umeauniversity.png"
                 header="Buddy programme"
                 role="Group Leader"
-                timeslot="AUGUST 2017 - DECEMBER 2017"/>
+                timeslot="AUG 2017 - DEC 2017"/>
         </div>
     )
 }
