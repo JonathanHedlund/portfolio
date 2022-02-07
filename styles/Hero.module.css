@@ -205,3 +205,16 @@
         Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
     }
 }
+
+@media only screen and (min-width: 1200px) {
+    .heroTellusContainer {
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        overflow: hidden !important;
+        width: auto;
+        margin-top: -30px;
+        margin-left: 520px;
+        z-index: -1;
+    }
+}
