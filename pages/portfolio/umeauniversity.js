@@ -16,9 +16,9 @@ const umeauniversity = () => {
                 experienceType="EDUCATION"
                 header="Umeå University"
                 role="Student"
-                timeframe="August 2016 - Current"
-                text="I'm currently a student at Umeå University studying interaction design and economics.
-                    I'm enrolled in the Master of Science in Interaction & Design program as well as I'm
+                timeframe="August 2016 - January 2022"
+                text="I'm currently a student at Umeå University studying economics.
+                    I have a Master of Science in Interaction & Design degree and I'm
                     working towards getting a Bachelor of Science in Economics.">
                 <HeaderNav />
             </PortfolioHeader>
@@ -27,27 +27,27 @@ const umeauniversity = () => {
                     <PortfolioTitle title="My choice of education" />
                     <PortfolioText 
                         text="I started my studies at Umeå University in the fall of 2016. I wasn't really sure what I
-                        wanted to do after high school, I knew I wanted to study further but I did not know what 
-                        program was most suited for me. At the time I was
-                        interested in design and economics so my first thought was something related to those
-                        subjects. At the time my sister was studying the Master of Science in Interaction & Design at 
+                        wanted to do after high school, I knew I wanted to study but I did not know what 
+                        program suited me. I was interested in design and economics so my first thought was something 
+                        related to those subjects. At the time my sister was studying the Master of Science in 
+                        Interaction & Design at 
                         Umeå University, I had visited her a few times during 2016 and that was how I first heard
                         about the program. The program consists of areas such as programming, design, 
                         behavioral science, user testing, web design, and project management. I thought this
-                        sounded pretty interesting so I applied for the program and got in."/>
+                        seemed interesting so I applied for the program and got in."/>
                     <PortfolioTitle title="The education itself" />
                     <PortfolioText 
                         text="I had no prior experience in programming or web development so when I first got
                         there it was a bit overwhelming learning all the new skills required to complete the
                         curriculum. But as time went on I got more familiar with it and my interest in the field
                         grew as I was getting better and better at it. Now it is one of my main hobbies and 
-                        can't think of a more fun and challenging field to work in."/>
+                        can't imagine a more fun and challenging field to work in."/>
                     <PortfolioText 
                         text="A couple of years into my studies I was still interested in economics and since 
                         the program I was studying did not really cover that area I started looking for 
                         opportunities to gain further knowledge in the field. That was when I discovered that I 
                         could get a Bachelor of Science in Economics by choosing courses in economics whenever I
-                        had the opportunity as well as staying one more semester after finishing my Master of Science
+                        had the opportunity as well as staying one more semester after finishing the Master of Science
                         program."/>
                     <PortfolioText 
                         text="You gain knowledge about the whole development process throughout the years at
@@ -70,7 +70,7 @@ const umeauniversity = () => {
                         text="Every year at the Master of Science in Interaction & Design program, a student 
                         currently studying the fourth year is voted the student of the year. It is given to a 
                         person who has been engaged and added something extra to the program during 
-                        their years of studying. In 2020 I was honored to win this award and recieve this 
+                        their years of studying. In 2020 I was honored to win this award and receive this 
                         nice graphic."/>
                     <PortfolioImageVertical img="/aretsidare.jpeg" />
                     <PortfolioText 

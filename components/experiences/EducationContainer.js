@@ -12,7 +12,7 @@ const EducationContainer = () => {
                 img="/umeauniversity.png"
                 header="Master of Science, Interaction & Design"
                 role="Umeå University"
-                timeslot="AUGUST 2016 - Current"/>
+                timeslot="AUGUST 2016 - JANUARY 2022"/>
             <ExperienceItem 
                 link="/portfolio/umeauniversity"
                 img="/umeauniversity.png"

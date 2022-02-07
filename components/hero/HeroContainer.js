@@ -3,6 +3,14 @@ import HeroIconLink from './HeroIconLink'
 import styles from '../../styles/Hero.module.css'
 
 const HeroContainer = () => {
+    const handleClick = () => {
+        const yOffset = -80; 
+        const element = document.getElementById('contact-container');
+        const y = element.getBoundingClientRect().top + window.pageYOffset + yOffset;
+
+        return window.scrollTo({top: y, behavior: 'smooth'})
+    }
+
     return (
         <div className={styles.heroContainer}>
             <div className={styles.heroContent}>
@@ -17,7 +25,7 @@ const HeroContainer = () => {
                     </div>
                 </div>
                 <div className={styles.heroLinksContainer}>
-                    <div className={`btn ${styles.contactButton}`} onClick={() => window.scrollTo(120,document.body.scrollHeight)}>
+                    <div className={`btn ${styles.contactButton}`} onClick={() => handleClick()}>
                         Get in touch
                     </div>
                     <div className={styles.heroLinkContainer}>
