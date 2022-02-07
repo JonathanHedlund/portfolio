@@ -14,9 +14,9 @@
 
 .profilePicture {
     border-radius: 10px;
-    height: 35vh;
+    height: 40vh;
     margin-bottom: 30px;
-    background-position: center; /* Center the image */
+    background-position: 65% 35%;
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */
 }

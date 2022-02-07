@@ -8,7 +8,7 @@ const AboutContainer = () => {
         <div className={styles.aboutHomeContainer}>
             <h2 className={styles.headerMobile}>About me</h2>
             <div className={styles.profilePicture} style={
-                { backgroundImage: 'url(/jonathan-uppsala.jpeg)'}}>
+                { backgroundImage: 'url(/jonathan-uppsala2.JPG)'}}>
             </div>
             <div className={styles.contentContainer}>
                 <h2 className={styles.header}>About me</h2>
