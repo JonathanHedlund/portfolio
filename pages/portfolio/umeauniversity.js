@@ -43,7 +43,7 @@ const umeauniversity = () => {
                         grew as I was getting better and better at it. Now it is one of my main hobbies and 
                         can't imagine a more fun and challenging field to work in."/>
                     <PortfolioText 
-                        text="A couple of years into my studies I was still interested in economics and since 
+                        text="A couple of years into my studies I was still interested in economics, and since 
                         the program I was studying did not really cover that area I started looking for 
                         opportunities to gain further knowledge in the field. That was when I discovered that I 
                         could get a Bachelor of Science in Economics by choosing courses in economics whenever I

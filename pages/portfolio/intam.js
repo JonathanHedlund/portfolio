@@ -19,7 +19,7 @@ const intam = () => {
                 link='https://intam.se/'
                 linkName="View the website"
                 text="A web agency that specializes in creating user-friendly and responsive websites 
-                tailored for the customer's goals. Intam offers services such as UI/UX design, web development
+                tailored for the customer's needs. Intam offers services such as UI/UX design, web development
                 and search engine optimization for brands that want to increase their presence on the web.">
                 <HeaderNav />
             </PortfolioHeader>
@@ -27,20 +27,20 @@ const intam = () => {
                 <div className={portfolioStyles.portfolioPageContainerContentInner}>
                     <PortfolioTitle title="About the company" />
                     <PortfolioText 
-                        text='I started Intam with the purpose of having a side business where I could use my 
-                        web development experience I have gained throughout the years of studying at Umeå University 
-                        as well as the various side projects I have taken on in my spare time.'/>
+                        text="I started Intam with the purpose of having a side business where I could use the 
+                        web development experience I gained throughout the years of studying at Umeå University, 
+                        as well as the various side projects I've done in my spare time."/>
                     <PortfolioText 
-                        text="The web agency delivers solutions based on the the customers needs, that could be
-                        a website created with Wordpress that the customers easily can manage after it's been
-                        delivered or more complex websited created with more traditional web development technologies
-                        such as HTML, CSS and React."/>
+                        text="The web agency delivers solutions based on the customers needs, that could be
+                        a website created with WordPress that the customers easily can manage after it's been
+                        delivered or more complex websites created with more traditional web development technologies
+                        such as HTML, CSS, JavaScript, and React."/>
                     <PortfolioImage img="/intam-image.png" />
                     <PortfolioTitle title="My experience" />
                     <PortfolioText 
-                        text="Intam has been a great source of experience for me in learning what it takes to set up
+                        text="Intam has been a great source of experience in learning what it takes to set up
                         a business and work with clients to meet their needs. I'm always up for more work to further 
-                        my expertice in the field, check out the link to the website below if you are interested in 
+                        my expertise in the field, check out the link to the website below if you're interested in 
                         getting in touch with me for a potential collaboration."/>
                     <PortfolioLink 
                         link='https://intam.se/'

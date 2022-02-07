@@ -36,8 +36,8 @@ const hobbies = () => {
                         text='Although the course started in August 2020, the idea for Hobbies dates back to January of
                         the same year when I wanted to come up with and develop an idea alongside my studies.
                         The idea came from a wish to take my interests to the next level and get more out of
-                        excercising them on my own and find others (preferrably in person) who share my interest that 
-                        I could connect to. Instead of continuing to develop the idea further I started working at
+                        exercising them on my own and find others (preferably in person) who share my interest that 
+                        I could connect to. Instead of continuing to develop the idea further, I started working at
                         Uminova Innovation and Splick. So the idea stayed dormant until this course started up.'/>
                     <PortfolioImage img="/hobbies-2.png" />
                     <PortfolioTitle title="The application" />
@@ -54,7 +54,7 @@ const hobbies = () => {
                         addition to the social part, it is also possible to have tailored goals with the aim of motivating 
                         the user to pursue their hobby. It is also possible to set your own goals or see what others have 
                         set for themselves. The service offers something for everyone; those who want to meet people in 
-                        person, those who want to discuss online and for anyone who exercise the interest on their own."/>
+                        person, those who want to discuss online, and for anyone who exercises their interest on their own."/>
                     <PortfolioTitle title="The course" />
                     <PortfolioText 
                         text='The course was divided into four workshops, all with different tasks and milestones
@@ -83,7 +83,7 @@ const hobbies = () => {
                     <PortfolioText 
                         text='In the end, we decided to decline this offer since both Linus and I had
                         a few things going on that we wanted to focus our time on. This course and this
-                        experience was a fun, interesting, and a challenging process where we got to work with
+                        experience were a fun, interesting, and challenging process where we got to work with
                         a project that you could feel more attached to. During the course we got to do a lot
                         of things related to the start-up process that is "less fun", but incredibly healthy 
                         to get more experience at since it is crucial to increasing the success rate to take into 

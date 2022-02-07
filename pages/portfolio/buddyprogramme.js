@@ -25,7 +25,7 @@ const buddyprogramme = () => {
             <div className={portfolioStyles.portfolioPageContainerContent}>
                 <div className={portfolioStyles.portfolioPageContainerContentInner}>
                     <PortfolioTitle title="My participation" />
-                    <PortfolioText text="I've been a part of the Buddy Programme for two semesters, first during 
+                    <PortfolioText text="I was a part of the Buddy Programme during two semesters, first during 
                         the fall semester of 2017 as a group leader and during the spring semester of 2018 as a group 
                         member. I got the opportunity to get to know some amazing people through the Buddy Programme 
                         and I'm happy I took the chance to participate." />

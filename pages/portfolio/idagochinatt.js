@@ -37,26 +37,26 @@ const idagochinatt = () => {
                     <PortfolioText 
                     text='The group in charge of planning this career fair consists of students who work 
                     voluntarily to make this event possible. The team is split into three different groups, 
-                    one group responsible for IDag, one for Inatt and one group for PR. In addition to the groups, 
+                    one group responsible for IDag, one for Inatt, and one group for PR. In addition to the groups, 
                     there is also a project leader responsible for bringing everything together, this was my role 
                     during the 2019 iteration of IDag & Inatt.' />
                     <PortfolioText 
                     text="IDag & Inatt is one of the main highlights each year for the program, where all the
-                    students from year 1-5 are welcome to attend. The event usually takes place early in the
-                    month of May but the planning phase starts much sooner. The project group starts it's lenghty
-                    planning phase in September due to the various pieces that needs to come together in order to
+                    students from years 1-5 are welcome to attend. The event usually takes place early in the
+                    month of May but the planning phase starts much sooner. The project group starts its lengthy
+                    planning phase in September due to the various pieces that need to come together in order for
                     the event to be possible." />
                     <PortfolioTitle title="My role" />
                     <PortfolioText 
                     text="Being the project manager for a large event like this was a fun
-                    and challenging experience. Organizing an event with such a large timespan as this one was 
+                    and challenging experience. Organizing an event with such a large time span as this one was 
                     something I had never done before. I'm delighted by how the event turned out and grateful
-                    for the experience I gained through it. The picture below is of my classmates and I taken at
+                    for the experience I gained through it. The picture below is of my classmates and I took at
                     the 2019 event." />
                     <PortfolioImage img="/klassfoto.jpg" />
                     <PortfolioText 
                     text='In addition to being the project manager for the 2019 iteration, I was a part of the "IDag" 
-                    team in charge of the first part of the event in 2018. At the event I acted as the host together
+                    team in charge of the first part of the event in 2018. At the event, I acted as the host together
                     with my friend Sam Darrehshourian, where the picture below is taken.' />
                     <PortfolioImage img="/konferencie.jpeg" />
                 </div>

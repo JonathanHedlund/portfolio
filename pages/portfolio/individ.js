@@ -10,7 +10,7 @@ const individ = () => {
     return (
         <div className={portfolioStyles.portfolioPageContainer}>
             <PortfolioHeader 
-                img=""
+                img="/striden.png"
                 experienceType="PROJECT"
                 header="IndivID"
                 role="Chairman"
@@ -25,7 +25,15 @@ const individ = () => {
             </PortfolioHeader>
             <div className={portfolioStyles.portfolioPageContainerContent}>
                 <div className={portfolioStyles.portfolioPageContainerContentInner}>
-                
+                    <PortfolioText text="I joined IndivID in January 2018 and stayed as an active member 
+                    throughout the remainder of my studies. IndivID is like a small family inside of the
+                    Interaction & Design program. The group consists of students at the program who want to
+                    create a fun and welcoming environment for the whole program. The members of IndivID have
+                    been some of my closest friends during my time at Umeå University, and I'm incredibly
+                    happy that I chose to join and be a part of it."/>
+                    <PortfolioText text="From September 2018 to October 2019 I was the chairman of the 
+                    organization alongside Dardan Dauti who acted as vice-chairman. We were in charge of
+                    making sure everything went according to plan and all the other various responsibilities."/>
                 </div>
             </div>
         </div>
