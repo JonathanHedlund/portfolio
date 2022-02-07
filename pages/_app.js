@@ -23,7 +23,7 @@ function MyApp({ Component, pageProps }) {
           education." />
         <meta name="title" property="og:title" content="Jonathan Hedlund" />
         <meta property="og:type" content="Website" />
-        <meta name="image" property="og:image" content="/portfolio-image.png" />
+        <meta name="image" property="og:image" content="https://jonathanhedlund.com/portfolio-image.png" />
         <meta name="description" property="og:description" content="The web portfolio for Jonathan Hedlund showcasing all work experience, projects, and
           education." />
         <meta name="author" content="Jonathan Hedlund" />
