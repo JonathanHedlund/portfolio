@@ -7,12 +7,18 @@ const PreviousWorkItem = (props) => {
     return (
         <div className={styles.previousWorkLink}>
             <div className={props.flip ? styles.previousItemContainerFlipped : styles.previousItemContainer}>
-            <Link href={props.link}>
-                    <a className={props.flip ? styles.previousItemImageFlipped : styles.previousItemImage} style={{ backgroundImage: 'url(' + props.img + ')'}}>
-                        <div className={props.flip ? styles.previousItemImageFlippedMobile : styles.previousItemImageMobile} style={{ backgroundImage: 'url(' + props.img + ')'}}>
-                    </div>
-                </a>
-            </Link>
+                <Link href={props.link}>
+                        <a className={styles.hejsan}>
+                            <div className={props.flip ? styles.imageContainerFlip : styles.imageContainer}>
+                                <div className={props.flip ? styles.previousItemImageFlipped : styles.previousItemImage} style={{ backgroundImage: 'url(' + props.img + ')'}}/>
+
+                                <div className={props.flip ? styles.previousItemImageFlippedMobile : styles.previousItemImageMobile} style={{ backgroundImage: 'url(' + props.img + ')'}}>
+
+                                </div>
+                            </div>
+                        </a>
+                </Link>
+
                 <div className={styles.previousItemInformation}>
                     <h3 className={styles.headerItem}>{props.header}</h3>
                     <div className={styles.tagAndTimeContainer}>

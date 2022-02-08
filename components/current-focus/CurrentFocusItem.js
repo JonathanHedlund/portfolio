@@ -8,10 +8,12 @@ const CurrentFocusItem = (props) => {
         <div className={styles.currentFocusContainer}>
             <Link href={props.link}>
                 <a>
-                    <div
-                        className={styles.image}
-                        style={
-                            { backgroundImage: 'url(' + props.img  + ')'}}>
+                    <div className={styles.imageContainer}>
+                        <div
+                            className={styles.image}
+                            style={
+                                { backgroundImage: 'url(' + props.img  + ')'}}>
+                        </div>
                     </div>
                 </a>
             </Link>

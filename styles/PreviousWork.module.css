@@ -25,6 +25,16 @@
     box-shadow: 0px 3px 12px #000000af;
 }
 
+.imageContainer {
+    height: 180px;
+    overflow: hidden;
+    border-radius: 10px 10px 0 0;
+}
+
+.imageContainer:hover .previousItemImageMobile, .imageContainer:hover .previousItemImageFlippedMobile {
+    transform: scale(1.05);
+}
+
 .previousItemImage {
     background-color: #484848;
     border-radius: 10px 10px 0 0;
@@ -42,26 +52,29 @@
 }
 
 .previousItemImageMobile {
-    height: 180px;
+    width: 100%;
+    height: 100%;
     background-color: #484848;
     border-radius: 10px 10px 0 0;
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */
+    transition: 0.3s;
 }
 
 .previousItemImageFlippedMobile {
-    height: 180px;
+    width: 100%;
+    height: 100%;
     background-color: #484848;
     border-radius: 10px 10px 0 0;
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */
+    transition: 0.3s;
 }
 
 .previousItemInformation {
     padding: 0px 20px 20px;
-
 }
 
 .headerItem {
@@ -125,19 +138,46 @@
         display: flex;
         flex-direction: row-reverse;
     }
-    
-    .previousItemImage {
+
+    .hejsan {
         width: 45%;
         min-height: 300px;
         height: auto;
+    }
+
+    .imageContainer {
+        width: 100%;
+        height: 100%;
         border-radius: 10px 0px 0 10px;
     }
 
+    .imageContainer:hover .previousItemImage {
+        transform: scale(1.05);
+    }
+
+    .imageContainerFlip {
+        width: 100%;
+        height: 100%;
+        border-radius: 0px 10px 10 0px;
+        overflow: hidden;
+    }
+
+    .imageContainerFlip:hover .previousItemImageFlipped {
+        transform: scale(1.05);
+    }
+    
+    .previousItemImage {
+        width: 100%;
+        height: 100%;
+        border-radius: 10px 0px 0 10px;
+        transition: 0.3s;
+    }
+
     .previousItemImageFlipped {
-        width: 45%;
-        min-height: 300px;
-        height: auto;
+        width: 100%;
+        height: 100%;
         border-radius: 0 10px 10px 0;
+        transition: 0.3s;
     }
 
     .previousItemImageMobile {
