@@ -11,7 +11,7 @@ const CurrentFocusContainer = () => {
                     img="/splick.png"
                     header="Splick" 
                     role="Co-founder"
-                    timeslot="MARS 2020 - CURRENT"
+                    timeslot="MARCH 2020 - CURRENT"
                     text="A next-generation platform for helping e-commerce companies and influencers 
                     connect and collaborate."
                     link="/portfolio/splick"
