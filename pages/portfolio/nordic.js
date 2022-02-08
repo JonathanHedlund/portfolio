@@ -41,8 +41,8 @@ const nordic = () => {
                         are responsible for the attendees are the largest group of volunteers, in 2019 this group
                         consisted of 18 people. They make sure everything runs smoothly and goes according to 
                         plan. I was appointed team leader of this group where my responsibility was to make 
-                        sure that everyone has things to do, keep order on the schedule for everything 
-                        that needs to be done, and make sure that everyone is where they should be." />
+                        sure that everyone had things to do, keep order on the schedule for everything 
+                        that needed to be done, and make sure that everyone was where they should be." />
                     <PortfolioTitle title="My experience"/>
                     <PortfolioText 
                         text="The event was the most fun I've ever had volunteering. Volunteering together with
