@@ -25,12 +25,14 @@ const CurrentFocusItem = (props) => {
             <p className={styles.text}>
                 {props.text}
             </p>
-            <Link href={props.link}>
-                <a className={styles.link}>
-                    <span>Read more</span>
-                    <FontAwesomeIcon icon={['fas', 'long-arrow-alt-right']} className={styles.icon} />
-                </a>
-            </Link>
+            <div className={styles.linkContent}>
+                <Link href={props.link}>
+                    <a className={styles.link}>
+                        <span>Read more</span>
+                        <FontAwesomeIcon icon={['fas', 'long-arrow-alt-right']} className={styles.icon} />
+                    </a>
+                </Link>
+            </div>
         </div>
     )
 }
