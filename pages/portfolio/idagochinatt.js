@@ -51,12 +51,12 @@ const idagochinatt = () => {
                     text="Being the project manager for a large event like this was a fun
                     and challenging experience. Organizing an event with such a large time span as this one was 
                     something I had never done before. I'm delighted by how the event turned out and grateful
-                    for the experience I gained through it. The picture below is of my classmates and I took at
+                    for the experience I gained through it. The picture below is of my classmates and I at
                     the 2019 event." />
                     <PortfolioImage img="/klassfoto.jpg" />
                     <PortfolioText 
                     text='In addition to being the project manager for the 2019 iteration, I was a part of the "IDag" 
-                    team in charge of the first part of the event in 2018. At the event, I acted as the host together
+                    team in charge of the first part of the event in 2018. At the event, I acted as host together
                     with my friend Sam Darrehshourian, where the picture below is taken.' />
                     <PortfolioImage img="/konferencie.jpeg" />
                 </div>
