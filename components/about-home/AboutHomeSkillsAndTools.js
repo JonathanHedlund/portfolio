@@ -11,7 +11,7 @@ const AboutHomeSkillsAndTools = () => {
                 <h3 className={styles.skillsAndToolsHeader}>TOOLS</h3>
                 <p className={styles.tag}>
                     HTML, CSS, Javascript, Adobe Creative Suite, React, NextJS, Java, C, 
-                    PHP, Wordpress, SQL, noSQL, MongoDB, Codeigniter
+                    PHP, Express, NodeJS, Redux, Wordpress, SQL, noSQL, MongoDB, Codeigniter
                 </p>
             </div>
         </div>
