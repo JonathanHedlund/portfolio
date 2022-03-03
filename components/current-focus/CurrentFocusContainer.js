@@ -17,6 +17,15 @@ const CurrentFocusContainer = () => {
                     link="/portfolio/splick"
                     />
                 <CurrentFocusItem 
+                    img="/wip.png"
+                    header="WIP - New social media" 
+                    role="Creator"
+                    timeslot="FEBRUARY 2022 - CURRENT"
+                    text="Started working on a new (larger) project. A social media that also creates 
+                    value for using it on your own."
+                    link="/portfolio/social-media"
+                />
+                <CurrentFocusItem 
                     img="/intam.png"
                     header="Intam" 
                     role="Founder"

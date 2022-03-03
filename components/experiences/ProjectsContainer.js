@@ -8,6 +8,12 @@ const ProjectsContainer = () => {
         <div className={styles.experienceContainer}>
             <ExperienceHeader header="Projects" button={false}/>
             <ExperienceItem 
+                link="/portfolio/social-media"
+                img="/wip.png"
+                header="WIP - New social media"
+                role="Project"
+                timeslot="FEB 2022 - CURRENsT"/>
+            <ExperienceItem 
                 link="/portfolio/hobbies"
                 img="/hobbies-logo.png"
                 header="Hobbies"
