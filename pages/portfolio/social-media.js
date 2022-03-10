@@ -29,11 +29,13 @@ const socialMedia = () => {
                     <PortfolioText 
                         text="Even though I'm still very early on in this project I thought it would be
                         fun to post it here. So if you're intersted in checking out the progress I've made
-                        so far you can follow the link to the website below."/>
+                        so far you can follow the link to the website below. Here are some images of what
+                        the website will look like."/>
+                    <PortfolioImage img="/wip-image1.png" />
                     <PortfolioText 
                         text="I've only been working on the mobile version of the site so far, so keep that in mind."/>
                     <PortfolioLink link="https://hobbies.vercel.app" linkName="Check out the website!" />
-                    
+                    <PortfolioImage img="/wip-image2.png" />
                 </div>
             </div>
         </div>
