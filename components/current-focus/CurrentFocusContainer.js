@@ -3,48 +3,30 @@ import CurrentFocusItem from './CurrentFocusItem'
 import styles from '../../styles/CurrentFocus.module.css'
 
 const CurrentFocusContainer = () => {
-    return (
-        <div className={styles.currentFocusMainContainer}>
-            <h2 className={styles.header}>What I'm currently focusing on</h2>
-            <div className={styles.currentFocuses}>
-                <CurrentFocusItem 
-                    img="/splick.png"
-                    header="Splick" 
-                    role="Co-founder"
-                    timeslot="MARCH 2020 - CURRENT"
-                    text="A next-generation platform for helping e-commerce companies and influencers 
-                    connect and collaborate."
-                    link="/portfolio/splick"
-                    />
-                <CurrentFocusItem 
-                    img="/wip.png"
-                    header="WIP - New social media" 
-                    role="Creator"
-                    timeslot="FEBRUARY 2022 - CURRENT"
-                    text="Started working on a new (larger) project. A social media that also creates 
-                    value for using it on your own."
-                    link="/portfolio/social-media"
-                />
-                <CurrentFocusItem 
-                    img="/intam.png"
-                    header="Intam" 
-                    role="Founder"
-                    timeslot="AUGUST 2020 - CURRENT"
-                    text="A web agency that specializes in creating user-friendly and responsive 
-                    websites tailored for the customer's needs."
-                    link="/portfolio/intam"
-                />
-                <CurrentFocusItem 
-                    img="/klassfoto.jpg"
-                    header="Umeå University" 
-                    role="Student"
-                    timeslot="AUGUST 2016 - CURRENT"
-                    text="I'm currently a student at Umeå University studying economics."
-                    link="/portfolio/umeauniversity"
-                />
-            </div>
-        </div>
-    )
+	return (
+		<div className={styles.currentFocusMainContainer}>
+			<h2 className={styles.header}>What I'm currently focusing on</h2>
+			<div className={styles.currentFocuses}>
+				<CurrentFocusItem
+					img='/netlight.jpg_large'
+					header='Netlight'
+					role='Consultant'
+					timeslot='SEPTEMBER 2022 - CURRENT'
+					text='Netlight is a genuine consulting firm. We refine the concept of IT-consulting to be about talents who, in cooperation, create valuable results for our clients.'
+					link='/portfolio/netlight'
+				/>
+				<CurrentFocusItem
+					img='/splick.png'
+					header='Splick'
+					role='Co-founder'
+					timeslot='MARCH 2020 - CURRENT'
+					text='A next-generation platform for helping e-commerce companies and influencers 
+                    connect and collaborate.'
+					link='/portfolio/splick'
+				/>
+			</div>
+		</div>
+	)
 }
 
 export default CurrentFocusContainer
