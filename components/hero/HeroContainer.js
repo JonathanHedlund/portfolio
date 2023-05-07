@@ -17,8 +17,7 @@ const HeroContainer = () => {
 				<span className={styles.welcomeText}>Welcome to my portfolio!</span>
 				<h1 className={styles.nameText}>I'm Jonathan</h1>
 				<div className={styles.heroTagContainer}>
-					<div className={styles.heroTag}>Fullstack Developer</div>
-					<div className={styles.heroTag}>UX/UI Designer</div>
+					<div className={styles.heroTag}>Software Developer</div>
 				</div>
 				<div className={styles.heroLinksContainer}>
 					<div

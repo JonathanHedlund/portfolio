@@ -1,82 +1,82 @@
 .aboutHomeContainer {
-    margin-bottom: 65px;
+	margin-bottom: 65px;
 }
 
 .header {
-    margin-bottom: 35px;
-    display: none;
+	margin-bottom: 35px;
+	display: none;
 }
 
 .headerMobile {
-    margin-bottom: 35px;
-    font-size: 1.8rem;
+	margin-bottom: 35px;
+	font-size: 1.8rem;
 }
 
 .profilePicture {
-    border-radius: 10px;
-    height: 40vh;
-    margin-bottom: 30px;
-    background-position: 65% 35%;
-    background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: cover; /* Resize the background image to cover the entire container */
+	border-radius: 10px;
+	height: 40vh;
+	margin-bottom: 30px;
+	background-position: 65% 35%;
+	background-repeat: no-repeat; /* Do not repeat the image */
+	background-size: cover; /* Resize the background image to cover the entire container */
 }
 
 .aboutHomeText {
-    margin-top: 0;
-    margin-bottom: 25px;
+	margin-top: 0;
+	margin-bottom: 25px;
 }
 
 .skillsAndToolsHeader {
-    font-weight: 300;
-    font-size: 1.15rem;
-    color: rgb(207, 207, 207);
-    margin-bottom: 10px;
+	font-weight: 300;
+	font-size: 1.15rem;
+	color: rgb(207, 207, 207);
+	margin-bottom: 10px;
 }
 
 .tag {
-    font-weight: 400;
-    font-size: 1.1rem;
-    margin-bottom: 10px;
-    margin-top: 0;
-    line-height: 28px;
+	font-weight: 400;
+	font-size: 1.1rem;
+	margin-bottom: 10px;
+	margin-top: 0;
+	line-height: 28px;
 }
 
 @media only screen and (min-width: 850px) {
-    .aboutHomeContainer {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        margin-bottom: 120px;
-    }
+	.aboutHomeContainer {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		margin-bottom: 120px;
+	}
 
-    .profilePicture {
-        width: 30%;
-        height: auto;
-        margin-bottom: 0;
-    }
+	.profilePicture {
+		width: 35%;
+		height: auto;
+		margin-bottom: 0;
+	}
 
-    .header {
-        margin-bottom: 15px;
-        display: block;
-    }
-    
-    .headerMobile {
-        margin-bottom: 35px;
-        display: none;
-    }
+	.header {
+		margin-bottom: 15px;
+		display: block;
+	}
 
-    .contentContainer {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        width: 63%;
-    }
+	.headerMobile {
+		margin-bottom: 35px;
+		display: none;
+	}
 
-    .tag {
-        font-weight: 400;
-        font-size: 1.1rem;
-        margin-bottom: 10px;
-        margin-top: 0;
-        line-height: 28px;
-    }
+	.contentContainer {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		width: 58%;
+	}
+
+	.tag {
+		font-weight: 400;
+		font-size: 1.1rem;
+		margin-bottom: 10px;
+		margin-top: 0;
+		line-height: 28px;
+	}
 }

@@ -15,15 +15,6 @@ const CurrentFocusContainer = () => {
 					text='Netlight is a genuine consulting firm. We refine the concept of IT-consulting to be about talents who, in cooperation, create valuable results for our clients.'
 					link='/portfolio/netlight'
 				/>
-				<CurrentFocusItem
-					img='/splick.png'
-					header='Splick'
-					role='Co-founder'
-					timeslot='MARCH 2020 - CURRENT'
-					text='A next-generation platform for helping e-commerce companies and influencers 
-                    connect and collaborate.'
-					link='/portfolio/splick'
-				/>
 			</div>
 		</div>
 	)
